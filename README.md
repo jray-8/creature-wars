@@ -287,11 +287,13 @@ __Sacred Witches__ — Lvl. 4-6
 | Hecate's Three |
 | Bubonic Witch |
 | Buried Witch | If you control a Pirate rally, get 3 Cannonballs. When played, they do 5 damage to the enemy Empire. You still take damage from creatures they play. |
+| Skeletal Witch | If you control an Enhanced Skeleton, skellify all other creatures in your hand. They now belong to the Skeleton Tribe and only deal 3 damage to your empire, despite their original base _str_. |
 | Black Witch |
 | S | Shuffle every Skeleton that has died this game back into the deck with *+1 level*. |
 | S | Steal a random Witch card in your opponents hand, if one is present. |
 | S | For the remainder of the game, whenever a creature with level 6+ wins a duel, it also damages the Empire who sent it. |
 | Benevolent Witch | Give a random creature from each Tribe in your hand `+2 levels`. |
+| Prehistoric Witch | Make all creatures in your hand `Ancient`. |
 
 
 | Indignified Witch |
@@ -382,9 +384,59 @@ __Sacred Witches__ — Lvl. 4-6
 | Worried Witch |
 | Horned Witch |
 | Carnal Witch |
-
-
-
+| Greymalkin Witch |
+| Orbital Witch |
+| Jurassic Witch |
+| Super Witch |
+| Capone's Witch |
+| Raven Witch |
+| Alcatraz Witch |
+| Ophelia's Witch |
+| Banquo's Witch |
+| Twelfth Witch |
+| Claudius' Witch |
+| Polonius' Witch |
+| Albatross Witch |
+| Mortal Witch |
+| Trumpeting Witch |
+| Divine Witch |
+| Continental Witch |
+| Tectonic Witch |
+| Colossal Witch |
+| Witchosaurus |
+| Abominable Witch |
+| La Llorona Witch |
+| El Charro Negro's Witch |
+| The Witch That Keeps on Witching |
+| Colombus Witch |
+| The Great Imitator's Witch |
+| Scarecrow Witch | Transform a random creature in your opponent's hand into a Scarecrow. The Scarecrow has base _str_ 3, level 1, no Power Type, and "doesn't care": If dueled, it results in a tie and both cards are discarded. Each turn the Scarecrow is held, `Nightmare` types lose `1 level`. |
+| Vegetable Mask Witch | Lose `1 level` each turn. When this reaches level 0, draw 2 cards and discard this Witch. If this witch wins a duel, discard your entire hand. |
+| S | Transform `Nightmare` creatures into `Holy`, for both players. `Holy` creatures permanently deal double damage to Empires. |
+| Arnold Layne's Witch | _Steal from the line_: Swap a creature from each player's hand. The creature you receive gets `+2 levels` and `cooldown 1`. |
+| Emily's Hiding Witch | Choose a creature in your hand. At the start of each turn, it changes level randomly (1-6). |
+| Golden Veil Witch | Get a random creature from a Tribe you don't currently have. |
+| Dark Globe Witch | Creatures in both hands lose their Power Type for the rest of the game. |
+| Gnome Witch | Scramble the levels and Power Types of all creatures in your hand. <br>"Ooh, my" |
+| Jugband Witch | Add 3 random creatures to your hand. They must be played before any other card. |
+| Jugband Witch | Choose a card in your hand to discard. Draw 3 new cards. If all 3 win their duel, reobtain the discarded card with `+7 levels`. |
+| Jugband Witch | Discard a random creature from your hand. Create a Lvl.1 __Stand-In__ copy of it. If it dies, draw 2 cards. |
+| The Scarlet Letter Witch |
+| Scientific Witch | Choose a creature in your hand and a new Power Type for it to become. |
+| Overdrive Witch | Damage the enemy Empire equal to your most recent number of consecutive duel wins. |
+| Straight Witch | If you're holding at least 5 cards with consecutive levels, give them `+3 levels`. |
+| The Madcap's Witch | Shuffle your hand into the deck. Draw the same number of cards plus one. If this witch dies, discard 3 cards. |
+| Witch of Silence |
+| Pied Piper's Witch |
+| Clockwork Crier Witch | Set a prophecy: name a number (1-3). After that many turns, draw that many cards and take double the damage. |
+| Robin Witch |
+| Crow-Laughing Witch | Whenever a witch escapes, give a creature in the opponent's hand `-2 levels`. |
+| Toymaker Witch |
+| Daisy-Chain Witch |
+| Cracked Ceremony Witch | Whenever a Witch card is played, the other player discards a random card from their hand. Starting now. |
+| No Good Trying Witch | Skip your next turn. Draw 3 cards at the end of the skipped turn. |
+| Scarecrow Witch | As long as this witch is in your hand, you may not play creatures. Creatures in your hand gain `+1 level` at the end of each turn. |
+| False Witch |
 
 
 
@@ -415,6 +467,7 @@ __Sinful Witches__ — Lvl. 7-9
 | Witch of the Four Horsemen | 
 | Baden's Witch | The next time you are about to lose a duel, switch the card played with the most powerful creature in hand. |
 | Xartrath's Witch | 
+| W | No player can lose until Mayhem. |
 
 <br>
 
