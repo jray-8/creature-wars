@@ -88,17 +88,17 @@ After the duel, both cards are discarded.
 
 __Additional Rules__:
 
-- If the creatures have equal power, they each return to their player's hand and cannot be played on the next turn (Cooldown 1).
+- If the creatures have equal power, they each return to their player's hand and cannot be played on the next turn (cooldown 1).
 
 - If a player cannot play a creature for any reason, they simply take the Base Strength of the enemy creature.
 
-	- Cards may be on Cooldown or __Frozen__: cannot be played but remain in hand.
+	- Cards may be on cooldown or __Frozen__: cannot be played but remain in hand.
 
 - When 2 creatures from the same Tribe duel, it becomes a _Tribal Clash!_
 
 	__Tribal Clash__: The winner of the duel draws a card.
 
-- When a creature with a type disadvantage wins its duel, you may encounter a strange figure within your Empire …
+- When a creature with a type disadvantage wins its duel, you may encounter a strange figure within your Empire…
 
 	__Bizarre Victory__: Get a random Witch card.
 
@@ -161,37 +161,36 @@ They have less powerful effects and come in lower levels.
 | Name | Effect |
 |------|--------|
 | Blind Witch | This witch always loses its fight. |
-| Invisible Witch | This witch cannot be attacked. |
-| Angry Witch | If this witch loses its duel, discard a random card from your opponent's hand. |
-| Magic Witch | Transform a card in your opponent's hand into a random __Serpent__. |
+| Invisible Witch | This witch cannot be attacked. It automatically escapes. |
+| Angry Witch | If this witch loses its duel, discard a random card from the opponent's hand. |
+| Magic Witch | Transform a random card in your opponent's hand into a level 1 Serpent. |
 | Voodoo Witch | If this witch is killed, your opponent also takes damage but their's is doubled. |
 | Greedy Witch | Draw 2 cards. |
-| Which Witch | Become a random Witch and cast its effect at the start of the duel. |
+| Which Witch | At the start of the duel, transform into a random Sacred Witch and cast its effect. |
 | Witcheroo | Swap hands with your opponent. |
-| Kind Witch | Give creatures in both players' hands `+1 levels`. |
+| Kind Witch | Give creatures in both hands `+1 level`. |
 | Cocksure Witch | If this witch wins its duel, draw a card. Otherwise, your opponent does. |
 | Flamboyant Witch | Representation from the underworld. |
-| Envious Witch | Get a copy of the strongest (`base str`, `level`) creature in your opponent's hand. |
+| Envious Witch | Get a copy of the strongest creature in your opponent's hand. |
 | Cursed Witch | Each turn this is in your hand, take 1 damage. |
-| Sick Witch | If this witch survives its duel, turn all witches in your opponent's hand into __Sick Witches__. |
+| Sick Witch | If this witch survives, turn all witches in your opponent's hand into __Sick Witches__. |
 | Sacrificial Witch | If this witch dies, give all creatures in your hand `+2 levels`. |
 | Snake-Eyed Witch | If you're holding at least 2 Serpents, draw a card. |
-| The Witch Collector | Your opponent takes 3 damage, you gain 3 health. |
+| The Witch Collector | Your opponent takes 3 damage; you gain 3 health. |
 | Wet Witch | Each player doesn't ask… |
 | Flying Witch | If this witch escapes, add 2 random Sacred Witch cards to your hand. |
-| Wilbur Witch | If this witch escapes, get Orville Witch. If he already escaped, get a Flying Witch instead. |
-| Orville Witch | If this witch escapes, get Wilbur Witch. If he already escaped, get a Flying Witch instead. |
-| The Early Witch | If you play this card before turn 7, get 3 random Serpents. |
-| Pick a Witch | Choose to keep 1 of 3 random Witch cards. <br>"… Any Witch!"|
+| Wilbur Witch | If this witch escapes, get Orville Witch. If she already escaped, get a Flying Witch instead. |
+| Orville Witch | If this witch escapes, get Wilbur Witch. If she already escaped, get a Flying Witch instead. |
+| The Early Witch | If you play this card before turn 6, get 3 random Serpents. |
+| Pick a Witch | Look at 3 random Witch cards; add one to your hand. <br>"… Any Witch!"|
 | Witch in Time | If this witch survives, the next card you play has `+3 power`. |
-| Premature Witch | At the start of each turn, there is a *50% chance* Premature Witch will spring into action. ;) |
+| Premature Witch | At the start of each turn, there is a _50% chance_ Premature Witch will spring into action. ;) |
 | Slumbering Witch | This witch cannot be played until you have formed a Rally. |
-| McWitch | Restore `4 HP` to your Empire and get a random `Lvl.1` creature with a `base str` of 4 or less. <br>"I'm loving it!" |
-| Jittery Witch |
+| McWitch | Restore `4 HP` to your Empire and get a random `Lvl.1` creature with a Base Strength of 4 or less. <br>"I'm loving it!" |
+| Jittery Witch | Both players discard a random card, then draw one. |
 | Mundane Witch |
-| Rebellious Witch | If this witch survives, join the opponent's hand. |
-| Busy Witch | This witch must run her errands before being played. |
-
+| Rebellious Witch | If this witch survives, it joins the opponent's hand. |
+| Busy Witch | This witch must run her errands before being played: Cooldown 4. |
 
 </details>
 <br>
@@ -203,9 +202,9 @@ __Sacred Witches__ — Lvl. 4-6
 | Name | Effect |
 |------|--------|
 | Witch of Despair | Both players discard their entire hand. |
-| Witch of the Hesperus | __ALL__ Pirates are drown and replaced with __Phantoms__. <br>Phantoms lose 2 base strength but gain `+5 levels`, and have no Power Type. |
-| Vengeful Witch | If this Witch loses its duel, gain a __Lvl.1 Primordial Butterfly {1}__. If a Primordial Butterfly ever wins a duel, the opposing Empire crumbles. |
-| Moon Charm Witch | Transform _ALL_ Wolves into __Werewolves__. They now have a base strength of 8 and are all `Nightmare` types. |
+| Witch of the Hesperus | _ALL_ Pirates drown and are replaced with __Phantoms__ (-2 Base Strength, +4 levels, no Power Type). |
+| Vengeful Witch | If this Witch loses its duel, gain a `Lvl.1 Primordial Butterfly {1}`. If the Primordial Butterfly ever wins a duel, the opposing Empire crumbles. |
+| Moon Charm Witch | Transform _ALL_ Wolves into __Werewolves__. They now have a Base Strength of 8 and are permanently `Nightmare` types. |
 | Prophetic Witch | See your opponent's hand. |
 | Shifting Witch | Become an exact copy of the opponent's card at the start of the duel. |
 | Democratic Witch | Disband any __Rallies__ in your opponent's hand. Those cards cannot be used in future Rallies. |
@@ -214,7 +213,8 @@ __Sacred Witches__ — Lvl. 4-6
 | Hectic Witch | Shuffle 15 more Witch cards into the deck. |
 | Chaotic Witch |
 | Wicked Witch | After this Witch dies or flees, give a random card in your hand its *enchanted ring*: *+2 levels*. When a card with the *enchanted ring* is defeated in duel, give it to a random card in the victor's hand. |
-| Witch of the Hallowed Circle | 
+| Witch of the Hallowed Circle | While you hold this witch and at least 2 others, your creatures gain `+2 power` in duels. |
+| Witch of the Hallowed Circle | _The Seance_: Look at the last 5 cards that lost their duel. Add one to your hand. |
 | Wallowing Witch | 
 | Summoning Witch | 
 | Necrotic Witch |
@@ -226,7 +226,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Sun Witch | Shuffle `Nightmare` and Witch cards in each player's hand back into the deck. `Fire` creatures in both hands get `+3 levels`, but explode in 2 turns if left unplayed, dealing their `base str` to the holder's Empire. |
 | Gluttonous Witch | Both player's increase their Empire's health by 20 HP. |
 | Witch of Slothing | Discourage 2 cards in your opponent's hand. They can no longer be played or used in Rallies. |
-| Proud Witch | If this Witch escapes, the next time your opponent loses a duel they take double the damage. |
+| Proud Witch | The player who loses this duel will take double damage the next time they lose again. |
 | Lucky Witch | The next creature you play will always win its duel. |
 | Wishing Witch | The next card you draw is replaced with one that can help you form a Rally. |
 | Shamanic Witch | Randomize the Power Types of creatures in each player's hand. |
@@ -240,7 +240,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Seductive Witch | If this witch escapes, the opponent automatically plays the creature returned to their hand next turn. |
 | Rage Witch | Discard a random card from your hand to deal 1 damage to the enemy Empire for every duel you have lost this game. |
 | Jesting Witch | Tell a joke that adds 3 cards to the top of the deck. |
-| The High Witch | The next card played by your opponent has *+3 levels*, but they take __double damage__ from it if it loses. |
+| The High Witch | The next card played by your opponent has `+3 power`, but they take __double damage__ if it loses. |
 | Shady Witch | "Wanna make a deal…?" <br>Give your opponent the most powerful creature from your hand. You take their least powerful creature in return. If they don't play their gift next turn, it becomes defective (*level 1*)! |
 | Questing Witch | If your empire has slain a creature from every Kinship, choose a potion to drink: <br><br>Potion of Deception – discard your 3 most powerful creatures <br>Potion of Ferocity – all creatures in you hand gain *+3 levels* <br>Potion of Endurance – your Empire gains *+15 HP* |
 | Berserker Witch | On the next duel, the losing Empire also takes damage from the winning card's level. |
@@ -258,10 +258,10 @@ __Sacred Witches__ — Lvl. 4-6
 | Succubus' Witch | Discard a random `Nightmare` in your hand to summon a succubus that desecrates an enemy creature. The victim loses *-3 levels* and a Lvl.1 *cambion* is added to your opponent's hand. The cambion has the same *base str* and Power Type as the victim, but deals double damage to their Empire. |
 | Sin-Eater Witch | The next time one of your creatures dies, a random creature in your hand absorbs its transgressions and you take no damage. That creature becomes an outcast and can no longer be played. |
 | Charlotte's Witch | Trap a card in your opponent's hand in a web. It can never be played. |
-| The Sand Witch | Spell the air with sleep sand. For the rest of the game, `Nightmare` creatures have an additional 2 power when dueling. |
-| Green Witch | The player with less cards draws cards until both players share the same hand size. |
+| The Sand Witch | Spell the air with sleep sand. For the rest of the game, `Nightmare` creatures have `+2 power` when dueling. |
+| Green Witch | The player with less cards draws until both players share the same hand size. |
 | Reincarnating Witch | 
-| Wiccan Little | !!play on chicken little!! Whenever Wiccan Little panics, the sky __might__ fall. |
+| Wiccan Little | Whenever Wiccan Little panics, the sky __might__ fall. |
 | Coven-Calling Witch | Shuffle 13 Sacred Witches into the deck. |
 | Wraith Witch | If this witch dies, add a Wraith to your hand; it deals 3 damage to the enemy Empire when played and immediately disappears. Enemy creatures facing the Wraith are sent back to hand with a 1-turn cooldown. |
 | Witcher in the Rye | 
@@ -319,7 +319,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Prohabitionist Witch |
 | The Lost Witch |
 | Forbidden Hag |
-| Transcendental Witch |
+| Transcendental Witch | Choose a card in your hand. It swaps its level and base strength. |
 | Archwitch |
 | Bestialic Witch |
 | Beastie Witch |
@@ -371,7 +371,7 @@ __Sacred Witches__ — Lvl. 4-6
 
 
 | Witchmere the Grey |
-| Witch of the Nine Realms |
+| Witch of the Nine Realms | _Yggdrasil's Gift_: Replace your hand with a random creature from each of the 7 Tribes plus 2 Sacred Witches. |
 | Ms. Witchster |
 | Lich Witch |
 | Sphinx's Witch |
@@ -450,7 +450,7 @@ __Sacred Witches__ — Lvl. 4-6
 | The Madcap's Witch | Shuffle your hand into the deck. Draw the same number of cards plus one. If this witch dies, discard 3 cards. |
 | Witch of Silence |
 | Pied Piper's Witch |
-| Clockwork Crier Witch | Set a prophecy: name a number (1-3). After that many turns, draw that many cards and take double the damage. |
+| Clockwork Crier Witch | Set a prophecy: name a number (1-3). After that many turns, draw that many cards and take 2 damage for each drawn. |
 | Robin Witch |
 | Crow-Laughing Witch | Whenever a witch escapes, give a creature in the opponent's hand `-2 levels`. |
 | Toymaker Witch |
@@ -462,7 +462,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Astronomy Witch | Give all cards in your hand `+1 level` for each Power Type you control. |
 | Hostage Witch | Whenever you lose a duel while this is in your hand, reveal another random card to your opponent. If this witch escapes, 
 | Falsely Imprisoned Witch |
-| Premarital Witch | If you're holding another Witch card, add a random Lvl.1 Witch to your hand. |
+| Premarital Witch | If you're holding another Witch card, add a random level 1 Witch to your hand. |
 | Safe Witch | Discard your entire hand. |
 | Ambiguous Witch |
 | Espionage Witch |
@@ -588,6 +588,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Coven in the Oven |
 | Holy Night's Witch |
 | Age-Old Witch |
+| Witch of Yore |
 | Runic Witch |
 | Kabal Witch |
 | Seraphim Witch |
@@ -628,6 +629,19 @@ __Sacred Witches__ — Lvl. 4-6
 | Minstrel Witch |
 | Anhedonic Witch |
 | Xulub's Witch |
+| Self-Loathing Witch |
+| Oiko's Witch |
+| Gooey Witch |
+| The Morning Witch |
+| Tortured Witch |
+| Rapture Witch |
+| Shackled Witch |
+| Witch Trapper |
+| Where's Witch? |
+| Wild Witch |
+| Giant Witch |
+| Brothel Keeping Witch |
+
 
 
 
@@ -637,29 +651,31 @@ __Sacred Witches__ — Lvl. 4-6
 | The Witch of Wallstreet | Look at the top 3 cards of the deck. Put one in your hand, and the others on the bottom. |
 | S | Choose a Tribe. Creatures from that Tribe cannot be played for 2 turns. |
 | The Tin Witch | If you hold a Rally, give them another `+2 levels` (including The Tin Witch). |
+| The Tin Witch | _Heartless_: Remove the Power Type from all creatures in your opponent's hand. |
 | Witchy Wonka | If your opponent has played more Witches than you, then your next card that loses buffs cards in your hand equal to its level. |
 | Witchy Wonka | Hide 5 golden tickets on random creatures left in the deck. After a creature with a golden ticket is played, give creatures in your hand `+1 level` for each golden ticket uncovered. |
-| Jittery Witch | Both players discard a random card, then draw one. |
 | S | Turn _ALL_ `Ancient` types (held or in deck) into Serpents. |
 | Indignified Witch | If this witch wins the duel, the opposing creature is so embarrassed it loses its Power Type and `-2 levels` permanently. |
 | Paraphilic Witch | _Curious Attraction_: Choose a Tribe from your hand. All creatures of that Tribe in your opponent's hand are immediately drawn to yours. |
 | Nude Witch | Cards in both players' hands are set to `level 1`. |
+| Nude Witch | _Nothing to Hide_: Both players must play with their hands revealed until this witch leaves your hand. |
 | Racist Witch | _The Unspeakable_: Declare one of the 7 Tribes as uncouth. Whenever such a creature is played, the commanding Empire takes 3 damage. |
 | Death Witch | Choose to victimize the opponent's Empire or your own. A random card in the victim's hand has its `base str` increased by 5. |
 | Witch of Silencing | The first witch to be played while this is in your hand has its effect nullified. Whenever that happens, discard this witch. |
 | Nymph Witch | This card counts as any Power Type to complete a Rally in hand. Once a Rally is formed, it keeps that Power Type. |
 | S | This card counts as any Tribe to complete a Rally in hand. |
 | S | Transform all other witches in your hand into random Vampires. |
-| Witch of the Beasts and the Children | All creatures with a Base Strength greater than a `Pirate {4}` flee from the deck. |
-| Secular Witch | All `Holy` creatures in both players' hands lose their Power Type. |
+| Witch of the Beasts and the Children | All creatures with a Base Strength greater than 4 flee from the deck. |
+| Secular Witch | All `Holy` creatures in both hands are discarded. |
 | The Ouroboros Witch | Transform Serpents in both players' hands into random Dragons. |
 | S | Give creatures in both players' hands cooldown 3 (they cannot be played for the next 3 turns). |
 | S | Swap the Base Strength of the strongest and weakest creatures in your hand. |
 | Archwitch | Draw a Witch card from the deck and reveal it. Shuffle the deck. |
 | Maiden Witch | All level 1-2 creatures in your hand gain `+3 levels`. |
 | !!Wild-Tamer Witch | Reduce the Base Strength of all creatures in your hand by 2. Give them `+1 level` instead. |
-| Suicidal Witch | Lose 6 HP. Draw 2 cards and give them `+2 levels`. |
-| Witch of Ravishment | Get a Lvl.1 copy of a random creature in your opponent's hand. The victim can only be played after the copy is discarded. |
+| Suicidal Witch | Lose 6 HP. Draw a card and give it `+3 levels`. |
+| Witch of Ravishment | Get a level 1 copy of a random creature in your opponent's hand. The victim can only be played after the copy is discarded. |
+| Rape Witch | Take a random creature from your opponent. At the end of your next turn, it returns to them at level 1. |
 | S | Name a Tribe. If your opponent has none in hand, draw 2 cards. If they do, discard a random card instead. |
 | Joringel's Witch | Turn a random creature in your opponent's hand into a statue; it cannot be played. Transform a Witch in their hand into a Songbird, if present. Then, shuffle a nettle leaf into the deck. When drawn, reset the cooldown of all creatures in hand, unfreeze any statues, and transform the Songbird to its original form, if present. |
 | The Ugly Witchling | While this is in your hand, your cards lose `-1 level` each turn. If this witch escapes, give all cards in your hand `+2 levels`. |
@@ -687,7 +703,7 @@ __Sacred Witches__ — Lvl. 4-6
 | S | Shuffle 6 Giants into the deck. Discard cards from the deck until there is a Giant on top. |
 | Jungle Witch | Shuffle 6 random creatures into the deck. |
 | It's a Wonderful Witch | Replace your hand with an alternate image. Your Witch cards are rerolled based on rarity and your creatures are given new Power Types and levels. The next duel you lose causes your cards to reset to their original versions. |
-| Leviathan's Witch | All creatures with Base Strength 5 or higher gain `+3 levels`, but deal double damage to their owner if they lose. |
+| Leviathan's Witch | _ALL_ creatures with Base Strength 5 or higher gain `+3 levels`, but deal double damage to their owner if they lose. |
 | Ariadne's Witch | At the start of the next 3 turns, choose the rules of the proceeding duel: <br>Fight by level only. <br>Fight by Power Type only. <br>Fight by Base Strength only. |
 | Set's Witch | Destroy the strongest creature in your opponent's hand. It is split into 3 pieces and shuffled into the deck. Only your opponent may draw the pieces, and they cannot be played individually. When all 3 pieces are assembled, resurrect the creature with `+3 levels` for your opponent. |
 | Redcap Witch | _The Blood Curse_: Whenever you win a duel give your creatures `+1 levels`. Whenever you lose a duel, give your creatures `-1 levels`. When a creature would become level 0, instead it damages your Empire and flees. |
@@ -721,10 +737,45 @@ __Sacred Witches__ — Lvl. 4-6
 | Witch of Banishment | Choose up to two cards in your hand to banish from the game. Give your creatures `+1 level` for each one discarded. |
 | S | Creatures in both player's hands evolve into the next Tribe of greater Base Strength than it. |
 | S | Look at 3 creatures that have been defeated in duel this game. Choose one to bring back to your hand. |
-| Jurassic Witch | Pirates and Vampires are removed from the deck. Random Dragons or Giants replace them. All Giants and Dragons in the deck gain `+2 levels`. |
+| Jurassic Witch | Pirates and Vampires in the deck are replaced with random Dragons or Giants. All Giants and Dragons in the deck gain `+2 levels`. |
 | Fruit Basket Witch | Add a Pineapple that heals 6 HP when played to your hand. |
 | Witchrend | Choose a creature in your hand to split into two Lvl.1 creatures of the same Tribe. |
 | Familiar Witch | Get a random creature from the same Tribe as your most recently played creature. |
+| Albatross Witch | If this witch dies, curse your opponent. _Heavy Burden_: While cursed your opponent can no longer draw cards. The curse is lifted when they lose a duel or play their last card. |
+| Mortal Witch | Cards battle using only their Base Strength for the next duel. Levels and Power Types are ignored. |
+| S | For the rest of the game, your creatures have `+3 power` against creatures from the same Tribe. |
+| The Great Imitator | While in hand, the very next card your opponent draws is secretly transformed into The Great Imitator, but theirs is fake. If the Fake Imitator is played, a random card in hand is paralyzed (Frozen). If the Real Imitator is played, reveal your opponent's entire hand and steal the "Fake" card back; it becomes a random Sinful Witch in your hand. If the Fake Imitator is not present, restore 12 HP to your Empire instead. |
+| False Witch | `Holy` creatures in both hands are misled into Purgatory. Shuffle them back into the deck; they lose their holiness and become Lost Souls (no Power Type or Tribe). Creatures have `-2 power` for each Lost Soul in hand. |
+| Summoning Witch | Choose to get a random creature from one of 3 Tribes. |
+| S | Both player's discard 2 cards. You get to choose yours. |
+| Trumpeting Witch | Sound the horns. Both players reveal their hand. Each `Holy` creature revealed deals 2 damage to its holder's Empire. |
+| Continental Witch | Each player choose a creature in hand. Those creatures exchange Tribe and Power Type, but keep their original level and base strength. |
+| Tectonic Witch | Permanently swap the base strengths of two Tribes of your choice. |
+| Evolutionary Witch | Creatures in each hand evolve to the next highest Tribe. Dragons ascend to the aether and are discarded. |
+| Colossal Witch | `Ancient` creatures with a base strength of 5 or higher in each hand gain `+3 levels`. |
+| Colossal Witch | _Titanism_: All Giants in your hand gain `+5 levels` and their base strength is reduced to 0. |
+| Witchosaurus | Add a `Lvl.5 Ancient Dinosaur {6}` to your hand. If it ever loses a duel, discard your entire hand. |
+| Witchosaurus | _Extinction Event_: Destroy all creatures in both hands that are level 4 or higher. |
+| Abominable Witch | Fuse two creatures in your hand. They become one tribeless creature with combined levels and the higher base strength. |
+| The Witch That Keeps on Witching | The next 3 Witch cards played (by any player) cast their effects twice. |
+| Bestialic Witch | Choose a creature in your hand. Get a random level 1 copy of it with a random witch effect. It duels like a creature but casts its effect at the start of battle. |
+| S | If you have taken no damage the past 3 turns, draw 2 cards. |
+| Blood Witch | For the rest of the game, your Vampires heal your Empire by their level when they win a duel. |
+| Divine Witch | _Providence_: Your `Holy` creatures permanently heal your Empire by their level when they lose a duel. |
+| Brewing Witch | Complete the recipe to get a Strange Brew that casts an effect related to its components. The ingredients are thrown into the cauldron and discarded. <br>Tribe <br>Power Type <level> |
+| Half-Bred Witch | This witch has the effects of two Sacred Witches. |
+| S | Combine all remaining witches in your hand into a Supreme Witch (taking on the highest level). It casts the effects of each the witches when played. |
+| Capone's Witch | _Tax Evasion_: The next time you lose a duel, you take no damage. However, you must discard your highest-level card as "legal fees." |
+| Twelfth Witch | Swap the Power Types of every creature in your hand to align with the Power Types of creature's in your opponent's hand. |
+| Claudius' Witch | _Poison in the Ear_: While this is in your hand, you can look at the card your opponent draws each turn. |
+| Trumpeting Witch | _False Rapture_: All `Holy` creatures in both hands are played immediately in a "False Duel." No damage is dealt, but they are all discarded. "Is it time? No." |
+| S | _Burning Passion_: For the rest of the game, whenever you draw a `Fire` card, draw another card. |
+| S | For the rest of the game, whenever you defeat a `Nightmare` card, give your `Fire` creatures `+1 level`. |
+| The Last Witch | If there are no witches left in the deck or either player's hand, deal 10 damage to the enemy Empire. |
+| Harvest Witch | 
+
+
+
 
 
 __Sinful Witches__ — Lvl. 7-9
@@ -787,7 +838,7 @@ A 52-card deck is created as follows:
 
 ### Rallies
 
-Creatures of all different kinds are dispersed in the deck…until they __Rally__ in your hand.
+Creatures of all different kinds are dispersed in the deck … until they __Rally__ in your hand.
 
 __Rally__ — If your hand contains __4 or more cards__ of the same __Tribe__ or __Power Type__, they gain `+2 levels` (*enhanced*).
 
