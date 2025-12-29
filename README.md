@@ -482,8 +482,10 @@ __Sacred Witches__ — Lvl. 4-6
 | Overdrive Witch | Deal damage to the enemy Empire equal to your current number of consecutive duel wins. |
 | Straight Witch | If you're holding at least 5 cards with consecutive levels, give each of them `+3 levels`. |
 | The Madcap's Witch | Shuffle your hand into the deck. Draw the same number of cards plus one. If this witch dies, discard 3 cards. |
-| Witch of Silence |
+| Witch of Silence | _Hush_: For the next 3 turns, no Witch effects can be triggered. Witches played during this time duel without casting their effect. |
 | Pied Piper's Witch | Choose a Tribe. Creatures of that Tribe in your opponent's hand are discarded. For each discarded, add a random creature of that Tribe to the deck. |
+| Pied Piper's Witch | _The Rat-Run_: All Serpents and Wolves in both hands and the deck are immediately discarded. Draw 1 card for every 3 discarded. |
+| Mimic Witch | Cast the effect of the last played Witch. |
 | Clockwork Crier Witch | Set a prophecy: name a number (1-3). After that many turns, draw that many cards and take 2 damage for each drawn. |
 | Robin Witch |
 | Crow-Laughing Witch | Whenever a witch escapes, give a creature in the opponent's hand `-2 levels`. |
@@ -495,25 +497,44 @@ __Sacred Witches__ — Lvl. 4-6
 | False Witch |
 | Astronomy Witch | Give all cards in your hand `+1 level` for each Power Type you control. |
 | Hostage Witch | While in hand: Whenever you lose a duel, reveal a random card from your hand to your opponent. <br>On Escape: Give cards in your opponent's hand `-2 levels`. |
-| Falsely Imprisoned Witch |
+| Falsely Imprisoned Witch | Choose a creature that was "slain" (lost a duel). Return it to your hand with `+3 levels`. |
 | Premarital Witch | If you're holding another Witch card, add a random level 1 Witch to your hand. |
 | Safe Witch | Discard your entire hand. <br>Gain 5 HP. |
+| Safe Witch | _Protection_: You cannot take damage from your own creatures for the next 2 duels. |
 | Ambiguous Witch |
-| Espionage Witch |
+| S | Whenever your opponent draws a creature or Witch, discard one in your hand with the same Tribe to destroy both of them. |
+| S | Choose a Tribe. For the rest of the game that Tribe has +3 base strength. |
+| S | Burn the top 5 cards of the deck. Any `Fire` creatures are added to your hand instead. |
+| S | Discard all other Witches in your hand. For each discarded, give your creatures `+2 levels`. |
+| S | Discard 3 random cards. Add three identical level 1 creatures to your hand. |
+| S | For the rest of the game, cards enter your opponent's hand with cooldown 2. |
+| Vampire Hunter's Witch |
 
 
-| Soy Witch |
-| Evasive Witch |
-| Kill's Witch |
-| Lolita's Witch |
-| Sadistic Witch |
-| Divine Wind's Witch | Instead of dueling, both cards are promptly destroyed and each Empire takes 5 damage. Enemy witches fail to cast their effect. |
+
+
+
+| Ascetic Witch |
+| Witch of Chastity |
+| Limp Witch | While in hand: All your creatures have their base strength reduced to 2. |
+| Evasive Witch | _Smoke Screen_: This Witch cannot be discarded. <br>On Death: Return this to your hand with a random Sacred Witch effect. |
+| S | Choose a card in your hand to drain and set to level 1. For each level lost this way, give another card in your hand `+1 level`. |
+| Kill's Witch | _The Hit List_: Secretly choose a Tribe and Power Type. The next time your opponent plays a creature, deal 5 damage to their Empire for each trait it matches. |
+| Lolita's Witch | _Forbidden Fruit_: |
+| Humbert's Witch |
+| Humbert's Witch | Reveal a random creature in your opponent's hand. While it remains there, it loses `1 level` at the end of each turn. |
+| Sadistic Witch | _Proof of Life_: Whenever your opponent loses a duel, give a creature in your hand `+1 level`. |
+| Masochist's Witch | _Pain is Pleasure_: Whenever your Empire takes damage, draw a card. |
+| Flagellant Witch |
+| Playwright Witch | Rewrite the Tribe of one creature in your hand. It keeps its original base strength. |
+| Divine Wind's Witch | _Banzai Charge_: Instead of dueling, both cards are promptly destroyed and each Empire takes 5 damage. Enemy Witches do not cast their effects. |
 | Tenno Heika's Witch |
+| S | Your Empire cannot take more than 5 damage at once. |
 | Erotic Witch |
 | S | Choose to target the enemy Empire or your own. A random creature will have its base strength reduced by half (rounded down). |
 | Quiet Gazer's Witch |
 | Odax's Witch |
-| Mule Witch | Add 
+| Mule Witch |
 | Phrayme's Witch |
 | S | Cards in both hands gain cooldown equal to their level. |
 | Brute Keeping Witch | Add 2 steel cages to your opponent's hand. When played, or during Mayhem, a random creature with `base str` 5 or higher is released. |
@@ -524,16 +545,17 @@ __Sacred Witches__ — Lvl. 4-6
 | Swarm Witch |
 | Temno's Witch |
 | Frankenstein's Witch | 
-| Wretched Witch | All creatures in your hand are butchered and stitched back into one. Resurrect the __Monster__ with the combined levels and base strengths of your creatures. The Monster has the Tribes and Power Types of all creatures slain. While the Monster remains in hand, you no longer draw a card at the start of each turn. |
+| Wretched Witch | All creatures in your hand are butchered and stitched into one. <br>Resurrect the __Monster__ with combined levels, base strength, Tribes, and Power Types. <br>While the Monster is in hand, you do not draw at the start of your turn. |
 | Actirastic Witch |
+| S | Discard your highest-level creature. Draw two level 1 creatures. |
 
 
-| Vigil Witch | Give `Holy` creatures in your hand `+1 level` for each `Fire` type you control. |
+| Candlelight Vigil Witch | Give `Holy` creatures in your hand `+1 level` for each `Fire` type you control. |
 | Agalmatophilic Witch |
 | Agrexophilic Witch |
 | Asphyxia's Witch |
 | Convicted Witch | 
-| Homophobic Witch | Destroy random cards in each player's hand such that only 1 of each creature remain. |
+| Homophobic Witch | Destroy random cards in each player's hand until only one copy of each Tribe remains in hand. |
 | Vampiric Witch |
 | Rapier Witch |
 | Witchnapper |
@@ -541,45 +563,61 @@ __Sacred Witches__ — Lvl. 4-6
 | Plato's Witch |
 | Witch of Gyges |
 | Queen Nyssia's Witch | Instead of dueling, the opposing card is added to your hand and the strongest creature in your opponent's hand is slain. |
-| Mazophilic Witch |
+| Mazophilic Witch | Whenever a creature gains levels, this Witch gains the same number. |
 | Bricked Witch |
 | Elektra's Witch |
+| Elektra's Witch | If a creature in your hand is ever discarded before being played, give another creature in your hand `+4 levels`. |
 | Cenophilic Witch |
+| Cenophilic Witch | Give a random creature in your hand `+1 level` for each empty splot in your hand. |
 | Engorged Witch |
-| Katoptron's Witch |
-| Teleois' Witch |
+| Engorged Witch | Whenever you draw beyond your hand limit, give your creatures `+2 levels`. Draw a card. |
+| Katoptron's Witch | _Magic Mirror_: |
+| Teleios' Witch |
 | Dakno's Witch |
 | Hieros' Witch |
-| Sekhmet's Witch |
-| Logi's Witch |
+| Sekhmet's Witch | _The Wrath of Ra_: |
+| Logi's Witch | `Fire` creatures in your hand gain `+2 levels`. |
+| S | `Holy` creatures in your hand gain `+2 levels`. |
+| S | `Nightmare` creatures in your hand gain `+2 levels`. |
+| S | `Ancient` creatures in your hand gain `+2 levels`. |
 | Kukulkan's Witch |
 | Baalham's Witch |
-| Idolatrous Witch |
+| Idolatrous Witch | Choose a creature in your hand to be worshipped. At the end of your turns, all other cards in your hand transfer `1 level` to this creature. Cards may not go below level 1. |
+| Onan's Witch | Skip your next draw. Instead, gain `+5 levels` spread among your hand. |
 | Onan's Witch |
-| Magnetic Witch | After your next duel, draw a creature from the deck that matches the Tribe you played, or draw a Witch card from the deck if you played a Witch. |
-| Fool's Witch | This witch appears to be another. When played, you are revealed to be a fool! |
-| Loki's Witch | Shuffle 5 Fool's Witches into the deck. Witch cards in both players' hands are given a new identity and shuffled back into the deck. |
-| Masquerader's Witch |
-| Crossdressing Witch |
-| Swarming Witch | Shuffle 12 __Locusts__ into the deck. Locusts cannot be played, but each in hand deals 1 damage to your Empire after every duel. Playing a Witch card causes all Locusts in your hand to flee. |
+| Magnetic Witch | After your next duel, draw a creature matching the Tribe played, or draw a Witch if you played a Witch. |
+| S | Choose a Power Type. Draw a creature from the deck with this type. |
+| Fool's Witch | This witch takes the appearance of another Witch. When played, you are revealed to be a fool! |
+| Loki's Witch | Shuffle 5 Fool's Witches into the deck. Witch cards in both hands are shuffled back into the deck with new identitied. |
+| Masquerader's Witch | Copy the effect of the last Witch played this game. |
+| Crossdressing Witch | Give each creature in your hand a new Power Type. |
+| Swarming Witch | Shuffle 12 __Locusts__ into the deck. <br>Locusts cannot be played and deal 1 damage to their holder after each duel. <br>Playing a Witch causes all Locusts in your hand to flee. |
 | Falsely Imprisoned Witch |
-| Espionage Witch | Infiltrate the enemy Empire. A random card in their hand becomes your mole; you get to see who it is. At the end of each future duel, the mole reveals another card in your opponent's hand. When the mole is discarded your intel ceases. |
-| Peevish Witch |
+| Espionage Witch | Infiltrate the enemy Empire: A random card in their hand becomes your mole. <br>After each duel, the mole reveals another card in your opponent's hand. <br>When the mole is discarded, the effect ends. |
+| Peevish Witch | Give a random enemy creature `-2 levels`. |
 | Shadow Witch |
 | Epiales' Witch |
+| Pavlov's Witch |
 | Re-educational Witch |
-| Dyslexic Witch | Each turn this is in your hand, randomize the levels of all creatures in your hand. |
-| S | Swap the level and `base str` of all cards in both players' hands. |
+| S | All cards in both hands become level 1. |
+| Brainwashed Witch |
+| Dyslexic Witch | Each turn this is in your hand, scramble the levels of your cards. |
+| S | Swap the level and base strength of cards in both players' hands. |
+| Reverse Polarity Witch |
+| Schrodinger's Witch |
+| Paradoxical Witch |
+| Zeno's Witch |
+| Achille's Witch |
 | Prometheus' Witch |
 | Sisyphean Witch |
-| Aegean Witch |
+| Aegean Witch | Discard a random card from each hand.
 | Witch of Tantalus |
 | Bellerophon's Witch |
 | Milgaard's Witch |
 | Potiphar's Witch |
 | Schizophrenic Witch |
 | Capgras Witch |
-| Machiavellian Witch |
+| Machiavellian Witch | _The End Justifies The Means_: Freeze two random creatures in your hand and set them to level 1. Redistribute their lost levels to your other creatures. Then decide to give them to your opponent or keep them. |
 | Afflicted Witch |
 | Infected Witch |
 | Wiccan, The Wise |
