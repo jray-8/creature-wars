@@ -10,17 +10,25 @@ Creatures are captured (or bribed) and bound for battle to regain their freedom.
 
 - Play from a shared deck of __52 cards__
 
-- Each player controls an Empire with __30 HP__
+- Each player controls an Empire with __42 HP__
+
+	- There is no max HP.
 
 - Whoever loses all their HP first loses
 
-	- If the deck is empty before a player has won, go to *MAYHEM!*
+	- If the deck is empty before a player has won, go to [_MAYHEM!_](#mayhem)
 
 - Both players start the game with __5 cards__
 
 - Each turn players draw a card
 
-	- Alternate who draws from the deck first each turn
+	- Alternate who draws from the deck first each turn.
+
+- __Max hand size 10__
+
+	- Cards drawn beyond 10 are discarded.
+
+- Cards discarded/destroyed are __revealed to both players__ (unless otherwise specified).
 
 ---
 
@@ -31,15 +39,15 @@ Creatures start in deck with a level from 1-6.
 
 There are __7 Tribes__, each with a unique base strength:
 
-| Tribe | Base _str_ |
+| Tribe | Base STR |
 |-------|------------|
 | Serpent  | 0 |
 | Wolf     | 2 |
 | Skeleton | 3 |
-| Pirate   | 3 |
-| Giant    | 4 |
-| Vampire  | 5 |
-| Dragon   | 7 |
+| Pirate   | 4 |
+| Giant    | 5 |
+| Vampire  | 7 |
+| Dragon   | 9 |
 
 A creature can be one of __4 Power Types__: 
 
@@ -150,18 +158,7 @@ Effects may target:
 - The deck
 - __*ALL*__ cards, wherever they are
 
-Because Witch effects can be unpredictable—and sometimes harmful—playing a Witch card is often a gamble. The same Witch may save your Empire with one hand and doom it with another. So hold onto your Witch cards and use them carefully.
-
----
-
-### Timing Glossary
-
-- __On Escape__ — When a Witch survives its duel.
-- __On Death__ — When a Witch loses its duel.
-- __While in hand__ — A continuous effect active as long as the card remains in hand.
-- __At the start of your turn__ — Resolves before drawing a card.
-- __At the end of your turn__ — Resolves after the duel.
-- __For the rest of the game__ — A permanent rule change unless reversed.
+Because Witch effects can be unpredictable—and sometimes harmful—playing a Witch card is often a gamble. The same Witch may save your Empire with one hand and doom it with another. So hold onto your Witch cards and use them wisely!
 
 ---
 
@@ -581,7 +578,12 @@ __Sacred Witches__ — Lvl. 4-6
 | S | If your remaining hand has total level 12 or less, double the level of cards in your hand. |
 | S | Choose two creatures in your hand. They each gain the other's Tribe. |
 | Witch-atter, The Mad | Both players discard their hand and redraw the same number of cards. Randomly assign cooldown 0-3 to each. |
-| Witchatter, The Mad | Both players discard their hand and draw 6 new cards. <br>Players no longer draw cards at the start of each turn. <br>Instead, when a player's hand is empty, they draw 6 new cards from the deck. <br>Mayhem occurs when a player's hand is empty and there are no cards left in the deck to draw from. |
+| Witchatter, The Mad | _Perpetual Tea-Time_: Both players discard their hand and draw 6 new cards. <br>Players no longer draw cards at the start of each turn. <br>Instead, when a player's hand is empty, they draw 6 new cards from the deck. <br>Mayhem occurs when a player's hand is empty and there are no cards left in the deck to draw from. |
+| S | S: When one of your Vampires wins a duel, add another random Vampire to your hand. If a Vampire fighting for your Empire ever loses, discard all your Vampires. Any that enter your hand are immediately discarded. |
+| S | If all creatures in your hand are Big (base strength 5 or higher), give your creatures `+1 level`. |
+| S | If all creatures in your hand are Small (base strength 3 or lower),  give your creatures `+2 levels`. |
+| S | Whenever a Dragon dies in battles, give your hand `+3 levels`. |
+| S | Your Giants don't damage your Empire. |
 
 
 
@@ -596,8 +598,13 @@ __Sacred Witches__ — Lvl. 4-6
 | Sepulchrul Witch |
 | Graveyard Witch |
 | The Witch of Wallstreet |
-| Witchlock |
-| The Witcherwocky | 
+| Antonio's Witch | _Forced Conversion_: Halve the levels (rounded down) of all cards in your opponent's hand. Those levels are randomly distributed amongst your hand. He keeps the other half with a cost: His creatures are forced to convert to `Holy`. |
+| Witchlock | _The Legal Loophole_: The next time your opponent wins a duel, they spill blood. Their Empire takes damage equal to their creature's level. |
+| Witchlock | _Merry Bond_: Your opponent draws 2 cards. You get to see them. Each turn either card remains in hand, your Empire gains +2 HP. |
+| Witchlock | _A Pound of Flesh_: Choose a creature or Witch to give your opponent. Each turn (except this one) it's not played, your Empire gains +2 HP. When that card is played, your opponent takes 6 damage. If the majority of cards in their hand are `Holy`, you take 6 damage instead. |
+| Sophie's Witch | _Hurt by Guilt_: Your opponent must choose a creature in their hand to be Exterminated (removed from the game). For the rest of the game, they are haunted: Whenever anyone plays a creature of that same Tribe, the opponent takes damage equal to the Exterminated creature's level. |
+| Sophie's Witch | Look at the two most powerful creatures in your hand. Choose one to survive and give it `+6 levels`. The other is discarded immediately. The surviving creature permanently has its base strength reduced to 0—it is hollowed by guilt. |
+| The Witcherwocky |
 | The Tin Witch |
 | Little Witchard |
 | Choir Witch | S: While you control all 4 Power Types, your cards duel with `+2 power`. |
@@ -609,13 +616,14 @@ __Sacred Witches__ — Lvl. 4-6
 | Syncretistic Witch | Choose two creatures in your hand. They each gain the other's Power Type. |
 | Tambourine Witch |
 | Ever-Present Sea Witch |
-| Bouquet Witch | Discard 3 random cards and heal 2 HP for each Tribe lost. Then draw 3 new cards. |
+| Bouquet Witch | Discard 3 random creatures and heal 2 HP for each Tribe lost. Then draw 3 new cards. |
 | Sentimental Witch |
 | Witch of Sorrows |
 | Degenerating Witch |
 | Millstone Witch |
 | Bo Weevah Witch |
 | Outlaw Witch |
+| Wilted Witch |
 
 
 
@@ -633,21 +641,26 @@ __Sacred Witches__ — Lvl. 4-6
 | Trick 'r Witch |
 | Witchy Wonka | Add 5 Golden Tickets to the deck. <br>Whenever a ticketed creature is played, its owner chooses: Gain 5 HP or Give all creatures in your hand `+1 level`. <br>When the last ticket is revealed, the player who found more Golden Tickets discards their hand. |
 | Forbidden Hag |
-| Witch McConnell |
-| Thousand-Yard Witch |
+| Witch McConnell | Choose a Power Type. Cards of that type cannot be played by either player for 3 turns. <br>"The Senate will not be moved." |
+| Thousand-Yard Witch | _Shell-Shock_: If this witch survives its duel, the enemy creature is returned to their hand Frozen. That card "loses its mind": its Power Type is removed and it cannot be used in Rallies for the rest of the game. |
+| Blitzkrieg Witch | The next creature played by your opponent is swapped with another creature in their hand before the duel. If they have no other creature, you damage them directly. |
+| Witchstorm Thurmond | While in hand, neither player can draw any cards or gain HP. At the start of each turn, your opponent may choose to discard half their hand (rounded up) to destroy Witchstorm Thurmond. |
 | No Man's Witch |
 | Trench Witch |
-| Blitzkrieg Witch |
+| Stonewall Witch |
 | Witchatter, The Mad |
-| Wichita Witch |
+| Wichita Witch | Shuffle both hands into the deck. Each player draws one card per unique Tribe they previously held. |
 | Nikola Witchla |
 | Perpetual Time Witch |
 | Witchabel Lee |
 | Crusader Witch |
-| Regal Witch |
+| Lawless Witch |
+| Glass Witch |
+| Regal Witch | If this witch dies, it leaves its golden jewelry behind. For the rest of the game, if one of your Pirates loses a battle, add another random Pirate to your hand. |
 | Wolf King Witch |
-| Herculean Witch |
+| Herculean Witch | Choose a creature in your hand to bless with `+6 levels`. When it wins a duel, it reenters your hand with `-1 level`. If it wins 3 duels, it ascends to be with the gods and heals your Empire for its base strength. If it ever loses a duel, it deals double damage to your Empire and is destroyed. |
 | Heretic Witch |
+| Tarnished Witch |
 | Side Witch |
 | Hecate's Three |
 | Bubonic Witch |
@@ -999,6 +1012,32 @@ __Sinful Witches__ — Lvl. 7-9
 
 ---
 
+### Keyword Glossary
+
+Timing:
+
+- __On Escape__ — When a Witch survives its duel.
+- __On Death__ — When a Witch loses its duel.
+- __While in hand__ — A continuous effect active as long as the card remains in hand.
+- __At the start of your turn__ — Resolves after drawing a card, before dueling.
+- __At the end of your turn__ — Resolves after the duel.
+- __For the rest of the game__ — A permanent rule change unless reversed.
+
+Effects:
+
+- __Frozen__ — A card stays in hand but cannot be played. It may be used in Rallies.
+- __Paralyzed__ — A card is Frozen and cannot be used in Rallies.
+
+Mechanics:
+
+- When cards are __Shuffled__ into the deck, the entire deck order is randomized.
+- Cards __Discarded / Destroyed__ are revealed to both players (unless otherwise specified).
+- __Secretly__ — Do not show the opponent the card chosen or decision made.
+- __Reveal__ — Show to both players.
+- __Heal / Restore / Gain HP__ — Add to health total. There is no max HP.
+
+---
+
 ### Deck Structure
 
 A 52-card deck is created as follows:
@@ -1074,7 +1113,7 @@ __Mayhem__ — Symmetric end-of-game effect that establishes a victor.
 
 ### Strategy Tips
 
-Fuck-placeholder
+Placeholder
 
 ---
 
@@ -1114,7 +1153,7 @@ __Ex.__
 	Lvl.4 Ancient Vampire {7}: (-)
 
 - The Wolf can be played next turn
-- The Vampire may _NEVER_ be played
+- The Vampire may _NEVER_ be played (__Frozen__)
 
 Card upgrades are denoted by:
 
