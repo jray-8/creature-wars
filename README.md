@@ -584,6 +584,7 @@ __Sacred Witches__ — Lvl. 4-6
 | S | If all creatures in your hand are Small (base strength 3 or lower),  give your creatures `+2 levels`. |
 | S | Whenever a Dragon dies in battles, give your hand `+3 levels`. |
 | S | Your Giants don't damage your Empire. |
+| S | The winner of the next duel discards a random card. |
 
 
 
@@ -1014,7 +1015,7 @@ __Sinful Witches__ — Lvl. 7-9
 
 ### Keyword Glossary
 
-Timing:
+_Timing_:
 
 - __On Escape__ — When a Witch survives its duel.
 - __On Death__ — When a Witch loses its duel.
@@ -1023,18 +1024,29 @@ Timing:
 - __At the end of your turn__ — Resolves after the duel.
 - __For the rest of the game__ — A permanent rule change unless reversed.
 
-Effects:
+_Status Effects_:
 
-- __Frozen__ — A card stays in hand but cannot be played. It may be used in Rallies.
-- __Paralyzed__ — A card is Frozen and cannot be used in Rallies.
+- __Enhanced__ 
+	- A card has formed a Rally before, giving them `+2 levels`.  
+	- This card will not harm you during Mayhem.
+- __Cooldown $N$__
+	- This card cannot be played until $N$ full turns have passed.
+- __Frozen__ 
+	- A card stays in hand but cannot be played. It may be used in Rallies.
+- __Discouraged__ 
+	- A card cannot be used in Rallies anymore.
+	- If it was Enhanced, it loses `2 levels` and its Enhanced status.
+- __Paralyzed__ 
+	- A card is both Frozen and Discouraged.
 
-Mechanics:
+_Mechanics_:
 
 - When cards are __Shuffled__ into the deck, the entire deck order is randomized.
+- If an effect __Freezes__ a random card, it only targets cards that do not currently have the Frozen status.
 - Cards __Discarded / Destroyed__ are revealed to both players (unless otherwise specified).
-- __Secretly__ — Do not show the opponent the card chosen or decision made.
+- __Secretly__ — Hide your choice from the opponent.
 - __Reveal__ — Show to both players.
-- __Heal / Restore / Gain HP__ — Add to health total. There is no max HP.
+- __Heal / Restore / Gain HP__ — Add to health total. There is no maximum HP.
 
 ---
 
@@ -1121,18 +1133,15 @@ Placeholder
 
 In the game, cards will be represented as such:
 
-	Lvl.X <Type> <Name> {b}
+	Lvl.x <Type> <Name> {b}
 
-- Where `X` is the level of the card, and `b` is its base strength
+- Where `x` is the level of the card, and `b` is its base strength
 
 __Ex.__
 
 	Lvl.3 Fire Giant {5}
 
-
-
-Rallies are denoted with a `!` after the Power Type or the Tribe to indicate the kind of Rally.
-
+Rallies are denoted with `!` after the Power Type or the Tribe to indicate the kind of Rally.  
 __Ex.__
 
 	Lvl.2 Holy Wolf! {2}
@@ -1143,28 +1152,35 @@ __Ex.__
 - A Power Rally of `Ancient` types
 - A Witch Rally
 
-Cards that are on cooldown for `#` turns are marked with:
+Discouraged cards are denoted with `?!` after the card name.  
+__Ex.__
 
-	Lvl.3 Nightmare Wolf {2}: (#)
+	Lvl.2 Fire Skeleton ?! {3}
+
+Cards that are on cooldown for `n` turns are marked with:
+
+	Lvl.3 Nightmare Wolf {2}: (n)
 
 __Ex.__
 
 	Lvl.3 Nightmare Wolf {2}: (1)
-	Lvl.4 Ancient Vampire {7}: (-)
+	Lvl.4 Ancient Vampire {7}: (–)
 
 - The Wolf can be played next turn
 - The Vampire may _NEVER_ be played (__Frozen__)
 
-Card upgrades are denoted by:
+Card transformations are denoted by:
 
-	Old Card → Upgraded Stat
+	Old Card → Changed Stats
 
 __Ex.__
 
 	Lvl.3 Fire Dragon {9} → Lvl.4
 	Lvl.1 Nightmare Serpent → Dragon
 
----
+Discarded cards are shown as:
+
+	X → Lvl.4 Holy! Pirate {4}
 
 ## Setup
 
