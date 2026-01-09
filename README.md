@@ -629,7 +629,35 @@ __Sacred Witches__ — Lvl. 4-6
 | S | The damage from the next duel is saved for later. Whichever Empire loses the subsequent duel takes all the damage. |
 | S | _Temptation_: Turn a random `Holy` creature in the opponent's hand to `Nightmare`. If their hand has no more `Holy` creatures, buff your `Nightmares`	`+3 levels`. |
 | S | Opponent loses 2 HP. Give your Vampires `+1 level` each. |
-| Leaning Witch | Choose a Power Type. Creatures in both hands with such Power Type gain `+2 levels`; opposites lose `1 level`. | 
+| Leaning Witch | Choose a Power Type. Creatures in both hands with such Power Type gain `+2 levels`; opposites lose `1 level`. |
+| S | After your Empire is destroyed, trigger Mayhem. |
+| S | Give Witches in both hands `cooldown 3`. Give your non-creature cards `+2 levels`. |
+| S | Every time your Empire gains HP, give your Vampires `+1 level`. Steal 2 HP from the enemy Empire. |
+| S | Force a random Wolf, Skeleton, Pirate, or Vampire in your hand to undergo transformation. If you have none, give your hand `-3 levels` instead. |
+| Crystal Witch | While in hand: You secretly see the top card of the deck. |
+| Stonewall Witch | Discourage all cards in your opponent's hand. Those cards cannot participate in Rallies and gain cooldown 2. |
+| Catatonic Witch | For the next 2 turns, there is a 50% chance that the card your opponent plays will not show up. Instead, it returns to their hand with Cooldown 1. |
+| Poppy Seed Witch | "Count the seeds before you bite." Paralyze _ALL_ Vampires, wherever they are. They cannot be played or used in Rallies. |
+| Mustard Seed Witch | Add a Lvl.1 `Holy` Serpent to your hand. Each turn it gains `+1 level` and advances its Tribe until it becomes a Dragon. |
+| Superstitious Witch | Name a number (1-6). For the rest of the game, whenever a card enters play at that level, its owner takes 2 damage. |
+| Meadowsweet Witch | Add a __Lvl.3 Honey-Wine__ to your hand. When played, it heals your Empire for its level. It gains `+1 level` every 2 turns. |
+| Wolfsbane Witch | "Poison the Wolves!" <br>For the rest of the game, Wolves in hand lose `1 level` at the end of each turn. Give Wolves in each player's hand `+1 cooldown`. |
+| Vervain Witch | "Bring the dawn!" <br>Vampires in both hands lose `3 levels`. Heal your Empire for 3 HP. |
+| Simpler's Witch | Add the 3 Herbalist Witches to your hand. |
+| Davy Jones' Witch | Add a random Pirate from the Graveyard to your hand. It gains `+2 levels` but deals double damage if it loses. |
+| Seuss Witch | "Oh, the misplays you'll make." <br>Cards enter your opponent's hand face-down. Playing a Witch causes their blank cards to be revealed. |
+| Seuss Witch | _Seussian Curse_: Cards slip in quiet, no name and no face. <br>They sit in your hand in a blank little space. <br>You'll guess and you'll gamble, you'll hope and you'll itch— <br>But play just one Witch… <br>and they all show which is which. |
+| Silver Bullet Witch | Secretly choose a Tribe. The next creature played from that Tribe is destroyed before the duel. |
+| Silver Hand Witch | `Nightmare` creatures in both hands lose `2 levels`. Any `Nightmare` Wolves lose an additional `3 levels`. |
+| Antique Witch | Give your cards `+1 level` for each `Ancient` you hold. |
+| Stone Witch | While in hand: Both players cannot increase the level of their cards. |
+| Bronze Witch | Choose one Tribe. _ALL_ creatures from that Tribe gain `+2 levels`. _ALL_ others lose `1 level`. |
+| Iron Witch | Creatures deal +2 damage when they lose duels. |
+| Gingerbread Witch | Add a __Gingerbread Man__ to your hand. <br>Lvl.3 Gingerbread Man {2} <br>- No Tribe, no Power Type <br>- When he wins a duel: <br>-> Deal 2 damage to the enemy Empire <br>-> Return him to your hand with `+2 levels` <br>He always loses to Wolves. |
+| Trick 'r Witch | Swap a random card in your opponent's hand with a card from the deck. If they recieve a Witch this way, they also take 4 damage. |
+| Scurvy Witch | _ALL_ Pirates lose `2 levels` wherever they are. |
+| Ichor Witch | Choose a creature in your hand. If it wins its next duel, it returns to your hand. |
+| Witch of Talos | Deal damage to the enemy Empire equal to the number of Giants you hold, for each Pirate in the opponent's hand. |
 
 
 
@@ -656,6 +684,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Sentimental Witch |
 | Profiteering Witch |
 | Garuda Witch |
+| Chef's Witch |
 
 | Witch of Sorrows |
 | Degenerating Witch |
@@ -669,35 +698,35 @@ __Sacred Witches__ — Lvl. 4-6
 | S | Choose a card from your hand to be swapped with a random card in your opponent's hand. If they play it and lose, you draw a card. |
 | Witch Hubert | The next Witch or creature you play will give up and lose. Afterwards, give your hand `+1 level`. Any `Holy` creatures gain `+2 levels` instead. |
 | Whipping Witch | While in hand: The next time one of your creatures loses a duel, it is swapped with Whipping Witch before you take damage. |
-| Witch of Ding Zui | Play a random Frozen card from your hand. This Witch takes its spot in hand (Frozen). |
-| Witch of Ding Zui | _Hire a Double_: Sacrifice a creature from your hand. The next time a creature from the same Tribe attacks you, the enemy Empire takes damage instead. |
-| Witch of Ding Zui | _Hire a Double_: Sacrifice a Lvl.1 creature from your hand. The next time you lose a duel, your opponent takes the damage instead. |
+| Witch of Ding Zui | Play a random Frozen or cooldown card from your hand. This Witch takes its spot in hand. |
+| Witch Goat | Sacrifice a creature from your hand. The next time a creature from the same Tribe attacks you, the enemy Empire takes damage instead. |
+| Witch of Ding Zui II | _Hire a Double_: Sacrifice a Lvl.1 creature from your hand. The next time you lose a duel, your opponent takes the damage instead. |
 | Fallen Witch |
-| Seuss Witch |
-| Seuss Witch | "Oh, the misplays you'll make."
+
 | Von Witch |
-| Missionary Witch |
+| Missionary Witch | Discourage all cards in your opponent's hand and give them `-1 level`. They can no longer form Rallies. `Holy` creatures are not affected, and instead gain `+1 level`. |
 | Reverend Witch | Convert a random creature in your opponent's hand to `Holy`. It loses `3 levels` and gains cooldown 2. |
 | Catholic Witch | Steal all Lvl.1-2 `Holy` creatures from your opponent's Empire. They achieve `+1 level` in your hand. |
 | Reverend Witch | _Sermon_: All `Holy` in your hand gain `+2 levels`; opponent's lose `1 level`. |
-| Penchant Witch |
-| Silver Bullet Witch | Secretly choose a Tribe. The next creature played from that Tribe is destroyed before the duel. |
-| Antique Witch | Give your cards `+1 level` for each `Ancient` you hold. |
-| Stone Witch |
-| Bronze Witch |
-| Iron Witch |
-| Gingerbread Witch | Add a __Gingerbread Man__ to your hand. <br>Lvl.3 Gingerbread Man {2}: no Tribe, no Power Type. <br>When the Gingerbread Man wins a duel, deal 2 damage to the enemy Empire and return him to your hand with `+1 level`. He always loses to Wolves. |
-| Trick 'r Witch | Swap a random card in your opponent's hand with a card from the deck. If they get a Witch, they also take 4 damage. |
+
+
 | Forbidden Hag |
-| Stonewall Witch |
-| Catatonic Witch | Over the next 2 turns, there is a 50% chance that the card your opponent plays will not show up. |
-| Poppy Seed Witch | _Count the Seeds before you Bite_: Paralyze _ALL_ Vampires, wherever they are. They cannot be played or used in Rallies. |
-| Mustard Seed Witch |
-| Superstitious Witch |
-| Meadowsweet Witch |
-| Wolfsbane Witch |
-| Vervain's Witch |
 | Firebrand Witch |
+| Aine's Witch |
+| Theia's Witch |
+| Maslow's Witch |
+| The Witch of Cthulhu |
+| Daydream Witch |
+| Royal Navy Witch | Destroy Pirates in both player's hands. For each destroyed, draw a card. |
+| Lajabless Witch |
+| Crick Crack Witch |
+
+
+| Monastic Order Witch |
+| Witch of Yarrow |
+| Witch of Durango |
+| Juniper Witch |
+| Night-Stalker Witch |
 | Witchatter, The Mad |
 
 | Samhain Witch |
