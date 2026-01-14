@@ -339,9 +339,9 @@ __Sacred Witches__ — Lvl. 4-6
 | Pied Piper's Witch | Choose a Tribe. Creatures of that Tribe in your opponent's hand are discarded. For each discarded, add a random creature of that Tribe to the deck. |
 | Pied Piper's Witch | _The Rat-Run_: All Serpents and Wolves in both hands and the deck are immediately discarded. Draw 1 card for every 3 discarded. |
 | Mimic Witch | Cast the effect of the last played Witch. |
-| Clockwork Crier Witch | Set a prophecy: name a number (1-3). After that many turns, draw that many cards and take 2 damage for each drawn. |
+| Clockwork Crier Witch | Set a prophecy: choose a number (1-3). After that many turns, draw that many cards and take 2 damage for each drawn. |
 | Crow-Laughing Witch | Whenever a witch escapes, give a creature in the opponent's hand `-2 levels`. |
-| Daisy-Chain Witch | This witch casts the effects of all other Witch cards in your hand. They all flee afterwards. |
+| Daisy-Chain Witch | This witch casts the effects of all other Witch cards in your hand. You Choose the order. They all flee afterwards. |
 | Cracked Ceremony Witch | From now on, whenever a Witch card is played, the other player discards a random card. |
 | No Good Trying Witch | Skip your next turn. Draw 3 cards at the end of the skipped turn. |
 | Straw Witch | As long as this witch is in your hand, you may not play creatures. Creatures in your hand gain `+1 level` at the end of each turn. |
@@ -436,7 +436,7 @@ __Sacred Witches__ — Lvl. 4-6
 | S | Transform all other witches in your hand into random Vampires. |
 | Witch of the Beasts and the Children | All creatures with a Base Strength greater than 4 flee from the deck. |
 | Secular Witch | All `Holy` creatures in both hands are discarded. |
-| The Ouroboros Witch | Transform Serpents in both players' hands into random Dragons. |
+| The Ouroboros Witch | Transform Serpents in both hands into random Dragons, and Dragons into random Serpents. |
 | S | Give creatures in both players' hands cooldown 3 (they cannot be played for the next 3 turns). |
 | S | Swap the Base Strength of the strongest and weakest creatures in your hand. |
 | Archwitch | Draw a Witch card from the deck and reveal it. Shuffle the deck. |
@@ -506,7 +506,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Albatross Witch | If this witch dies, curse your opponent. _Heavy Burden_: While cursed you can no longer draw cards. The curse is lifted when you lose a duel or your hand is empty. |
 | Mortal Witch | Cards battle using only their Base Strength for the next duel. Levels and Power Types are ignored. |
 | S | For the rest of the game, your creatures have `+3 power` against creatures from the same Tribe. |
-| The Great Imitator | While in hand, the very next card your opponent draws is secretly transformed into The Great Imitator, but theirs is fake. If the Fake Imitator is played, a random card in hand is paralyzed (Frozen). If the Real Imitator is played, reveal your opponent's entire hand and steal the "Fake" card back; it becomes a random Sinful Witch in your hand. If the Fake Imitator is not present, restore 12 HP to your Empire instead. |
+| The Great Imitator | While in hand: The next card your opponent draws is secretly transformed into The Great Imitator, but theirs is fake. If the Fake Imitator is played, a random card in hand is Paralyzed. If the Real Imitator is played, reveal your opponent's entire hand and steal the "Fake" card back; it becomes a random Sinful Witch in your hand. If the Fake Imitator is not present, restore 12 HP to your Empire instead. |
 | False Witch | `Holy` creatures in both hands are misled into Purgatory. Shuffle them back into the deck; they lose their holiness and become Lost Souls (no Power Type or Tribe). Creatures have `-2 power` for each Lost Soul in hand. |
 | Summoning Witch | Choose to get a random creature from one of 3 Tribes. |
 | S | Both player's discard 2 cards. You get to choose yours. |
@@ -576,8 +576,9 @@ __Sacred Witches__ — Lvl. 4-6
 | S | Give the player whose hand has the greater total level +9 HP. |
 | S | If your remaining hand has total level 12 or less, double the level of cards in your hand. |
 | S | Choose two creatures in your hand. They each gain the other's Tribe. |
-| Witch-atter, The Mad | Both players discard their hand and redraw the same number of cards. Randomly assign cooldown 0-3 to each. |
+| Witchatter, The Mad | Both players discard their hand and redraw the same number of cards. Randomly assign cooldown 0-3 to each. |
 | Witchatter, The Mad | _Perpetual Tea-Time_: Both players discard their hand and draw 6 new cards. <br>Players no longer draw cards at the start of each turn. <br>Instead, when a player's hand is empty, they draw 6 new cards from the deck. <br>Mayhem occurs when a player's hand is empty and there are no cards left in the deck to draw from. |
+| Witchatter, The Mad | On Escape: The enemy creature goes mad and damages its Empire by its base strength and level. |
 | S | S: When one of your Vampires wins a duel, add another random Vampire to your hand. If a Vampire fighting for your Empire ever loses, discard all your Vampires. Any that enter your hand are immediately discarded. |
 | S | If all creatures in your hand are Large (base strength 5 or higher), give your creatures `+1 level`. |
 | S | If all creatures in your hand are Small (base strength 3 or lower),  give your creatures `+2 levels`. |
@@ -629,7 +630,7 @@ __Sacred Witches__ — Lvl. 4-6
 | S | The damage from the next duel is saved for later. Whichever Empire loses the subsequent duel takes all the damage. |
 | S | _Temptation_: Turn a random `Holy` creature in the opponent's hand to `Nightmare`. If their hand has no more `Holy` creatures, buff your `Nightmares`	`+3 levels`. |
 | S | Opponent loses 2 HP. Give your Vampires `+1 level` each. |
-| Leaning Witch | Choose a Power Type. Creatures in both hands with such Power Type gain `+2 levels`; opposites lose `1 level`. |
+| Leaning Witch | Choose a Power Type. Creatures in both hands matching it gain `+2 levels`; opposites lose `1 level`. |
 | S | After your Empire is destroyed, trigger Mayhem. |
 | S | Give Witches in both hands `cooldown 3`. Give your non-creature cards `+2 levels`. |
 | S | Every time your Empire gains HP, give your Vampires `+1 level`. Steal 2 HP from the enemy Empire. |
@@ -639,7 +640,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Catatonic Witch | For the next 2 turns, there is a 50% chance that the card your opponent plays will not show up. Instead, it returns to their hand with Cooldown 1. |
 | Poppy Seed Witch | "Count the seeds before you bite." Paralyze _ALL_ Vampires, wherever they are. They cannot be played or used in Rallies. |
 | Mustard Seed Witch | Add a Lvl.1 `Holy` Serpent to your hand. Each turn it gains `+1 level` and advances its Tribe until it becomes a Dragon. |
-| Superstitious Witch | Name a number (1-6). For the rest of the game, whenever a card enters play at that level, its owner takes 2 damage. |
+| Superstitious Witch | Pick a number (1-6). For the rest of the game, whenever a card enters play at that level, its owner takes 2 damage. |
 | Meadowsweet Witch | Add a __Lvl.3 Honey-Wine__ to your hand. When played, it heals your Empire for its level. It gains `+1 level` every 2 turns. |
 | Wolfsbane Witch | "Poison the Wolves!" <br>For the rest of the game, Wolves in hand lose `1 level` at the end of each turn. Give Wolves in each player's hand `+1 cooldown`. |
 | Vervain Witch | "Bring the dawn!" <br>Vampires in both hands lose `3 levels`. Heal your Empire for 3 HP. |
@@ -658,6 +659,9 @@ __Sacred Witches__ — Lvl. 4-6
 | Scurvy Witch | _ALL_ Pirates lose `2 levels` wherever they are. |
 | Ichor Witch | Choose a creature in your hand. If it wins its next duel, it returns to your hand. |
 | Witch of Talos | Deal damage to the enemy Empire equal to the number of Giants you hold, for each Pirate in the opponent's hand. |
+| S | Give your `Ancient` creatures `+3 base strength`. |
+| S | Transform all your `Nightmares` into new creatures with the same base strength or higher. They keep their original levels. |
+| Royal Navy Witch | Destroy Pirates in both player's hands. For each destroyed, draw a card. |
 
 
 
@@ -690,44 +694,105 @@ __Sacred Witches__ — Lvl. 4-6
 | Degenerating Witch |
 | Millstone Witch |
 | Wilted Witch |
+| Fallen Witch |
+| Von Witch |
 
-| Amabel Bloundel's Witch | _Tolling of the Bells_: Every time a card is discarded, the enemy Empire takes 3 damage. |
-| Amabel Bloundel's Witch |
+| High Noon Witch | Give each player a random Witch with cooldown 3. Yours is Sacred, and theirs is Lesser. |
+| High Noon Witch | "I'll beat him fair." <br>Give each player a Sacred Witch with cooldown 2. After one is played, the other is discarded. |
+| Quick Witch | _Quick Draw_: On entry, cast a random Sacred Witch effect and flee. |
+| S | Shuffle three Quick Witches into the deck. |
+
+| S | Each time a player loses a duel, deal 1 damage to their Empire. This damage increases by +1 each time it triggers. |
+| Plague Witch | _Tolling of the Bells_: Every time a card is discarded, the enemy Empire takes 2 damage. |
+| Amabel Bloundel's Witch | Give a `Holy` creature in your opponent's hand `-4 levels`. If it would be reduced below 1, discard it instead. If it lives, add a Plague Witch to your hand. |
+| Old St. Paul's Witch | The next `Fire` creature to die in battle is reborn in your hand as a `Holy` creature. |
 | Pudding Lane Witch | _Ignite the Bakery_: Burn the top 6 cards of the deck. Any `Fire` creatures burned this way are added to your hand instead. For each Witch burned, both Empires take 3 damage. |
-| Witchlas Farriner |
+| Witchlas Farriner | Give a random creature in your hand `+3 levels` and cooldown 2. If it's a `Fire` creature, get a Pudding Lane Witch. |
 | S | Choose a card from your hand to be swapped with a random card in your opponent's hand. If they play it and lose, you draw a card. |
 | Witch Hubert | The next Witch or creature you play will give up and lose. Afterwards, give your hand `+1 level`. Any `Holy` creatures gain `+2 levels` instead. |
 | Whipping Witch | While in hand: The next time one of your creatures loses a duel, it is swapped with Whipping Witch before you take damage. |
 | Witch of Ding Zui | Play a random Frozen or cooldown card from your hand. This Witch takes its spot in hand. |
 | Witch Goat | Sacrifice a creature from your hand. The next time a creature from the same Tribe attacks you, the enemy Empire takes damage instead. |
 | Witch of Ding Zui II | _Hire a Double_: Sacrifice a Lvl.1 creature from your hand. The next time you lose a duel, your opponent takes the damage instead. |
-| Fallen Witch |
 
-| Von Witch |
-| Missionary Witch | Discourage all cards in your opponent's hand and give them `-1 level`. They can no longer form Rallies. `Holy` creatures are not affected, and instead gain `+1 level`. |
-| Reverend Witch | Convert a random creature in your opponent's hand to `Holy`. It loses `3 levels` and gains cooldown 2. |
+
+| Missionary Witch | Discourage all cards in your opponent's hand and give them `-1 level`. They can no longer form Rallies. `Holy` creatures are unaffected, and instead gain `+1 level`. |
+| Little Altar Witch | Convert a random creature in your opponent's hand to `Holy`. It loses `3 levels` and gains cooldown 2. |
 | Catholic Witch | Steal all Lvl.1-2 `Holy` creatures from your opponent's Empire. They achieve `+1 level` in your hand. |
 | Reverend Witch | _Sermon_: All `Holy` in your hand gain `+2 levels`; opponent's lose `1 level`. |
+| S | Freeze all level 1 creatures in both hands. |
+| S | Transform all your Witches into random creatures with the same level. |
+| Ferocious Witch | Discard the top 3 cards of the deck. Any creatures go feral dealing their base strength to both Empires. |
+| Firebrand Witch | _Ignite_: `+3 power` to your next `Fire` creature; if it wins, chain Ignite to another `Fire` creature in hand. |
+| Hunthe Witch | Shuffle a random Witch in your opponent's hand into the deck. If they aren't holding one, they take 4 damage instead. |
+| Witch Crier | Call out a Tribe. If your opponent holds none, get a random creature of that Tribe. |
+| S | Replace the top 5 cards of the deck with Lesser Witches. |
+| S | Reveal the weakest creature in each player's hand. The weaker of the two joins the Empire with the stronger one. |
+| Territorial Witch | The strongest Giant from either hand is revealed and controls the field. All others in hand are discarded. |
+| S | Choose a Tribe. Reveal the strongest Tribe member from each player's hand. The weaker one is discarded. |
+| Apprentice Witch | _Call the Master_: Add a random Sinful Witch to your hand. |
+| S | For the rest of the game, whichever Empire has more HP duels with `+1 power`. |
+| S | Drain the lifeforce from your opponent's weakest creature. Its level is reduced to 1, and your Empire heals for the levels lost. |
+| S | Add a Vampire from the graveyard to your hand. |
+| S | Reroll all your Skeletons. They get new levels (1-6) and Power Types. |
+| S | If you're holding no Giants, add a random Giant to your hand, then give it `+3 levels`. |
+| Whistle Witch | Choose a Power Type. Draw a Wolf from the deck sharing that Power Type. |
+
 
 
 | Forbidden Hag |
-| Firebrand Witch |
 | Aine's Witch |
 | Theia's Witch |
-| Maslow's Witch |
+| Maslow's Witch | _Golden Hammer_: If you only control one Power Type, transform the Power Types of creatures in your opponent's hand to become the weaker type. Give transformed creatures `-2 levels`. |
 | The Witch of Cthulhu |
 | Daydream Witch |
-| Royal Navy Witch | Destroy Pirates in both player's hands. For each destroyed, draw a card. |
 | Lajabless Witch |
 | Crick Crack Witch |
+| Sovereign Witch |
+| Klan Witch | _A Klan's Witch I Am_: Choose a Tribe. Creatures of that Tribe gain `+1 level`. _ALL_ others lose `2 levels` wherever they are. `Holy` creatures gain/lose an additional `2 levels`. |
+| Witch of the Nile | _Crocodile Pit_: The next time you lose a duel, buff creatures in your hand by the fallen card's base strength. |
+| McCarrick Crone |
+| George Pell's Witch |
+| Acolyte Witch |
+| John Geoghan's Witch |
+
+| Joseph Druce's Witch |
+| Darrin Smiledge's Witch |
+| George Rollo's Witch |
+| Kenneth Tarantino's Witch |
+| Brace's Cove Witch |
 
 
-| Monastic Order Witch |
+| Monastic Order Witch | _Vow of Silence_: For the rest of the game, while your hand consists of cards with level 3 or less, you duel with `+4 power`. Playing another Witch breaks your vow. |
 | Witch of Yarrow |
-| Witch of Durango |
-| Juniper Witch |
-| Night-Stalker Witch |
-| Witchatter, The Mad |
+| Witch of Durango | Next duel, both creatures deal their base strength to the opposing Empire. |
+| Di Mambro's Witch |
+| Night-Stalker Witch | Choose a `Nightmare` in your hand to discard and stalk the dreams of a random enemy creature. Secretly reveal the victim. If that creature loses its duel, your `Nightmare` also damages the enemy Empire. |
+| Night Terror Witch |
+| Cockatrice Witch |
+| Fortuna's Witch |
+| Deadlock Witch |
+| Reniassance Witch |
+| Colloseum Witch | "The crowd must be fed." <br>For the rest of the game, whenever a player loses a duel, their hand gains `+1 levels`. |
+| Rapier Witch | The next creature you play gains: "If this creature wins its next duel, return it to your hand." |
+| The Witch With No Name |
+| Lawless Witch |
+| The Lone Witch | "Ke-mo sah-bee." <br>Choose a creature in your hand. If there are 5 creatures from its Tribe in the Graveyard, give it `+5 levels` and add a __Native American__ to your hand. |
+| The Lone Witch | "Hi-yo, Silver!" <br>Choose a creature in your hand. If there are 5 creatures from its Tribe in the Graveyard, give it `+5 levels` and add a Silver Bullet Witch to your hand. |
+| Saloon Witch |
+| Ghost Town Witch |
+| Railroad Witch | For the rest of the game, cards must be played in increasing level order. If a player cannot, they skip their next play and the counter resets. |
+| Frontier Witch | "Civilization hasn't reached here yet." <br>Whenever you play a creature with no Tribe, it gains `+3 levels` and draws you a card. |
+| Purity Witch | Destroy all `Holy` creatures with level 5 or above, from each hand. |
+| Chastity Witch | _True Love Waits_: Freeze a random Witch in your opponent's hand. |
+| S | Choose a Tribe. Destroy all creatures not of that Tribe with level 2 or less, from each hand. |
+| Stalemate Witch |
+| Jugum Witch |
+| Whistle Witch |
+| I Ching Witch |
+| La Lechuza Witch |
+| S | Destroy a Witch in your hand to buff your hand by `+3 levels`. |
+| Black Powder Witch |
 
 | Samhain Witch |
 | Hafren's Witch |
@@ -739,6 +804,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Andvari's Witch |
 | Fafnir's Witch |
 | Valkyrie Witch |
+| Wepwawet's Witch |
 
 | Andvari's Witch | For the rest of the game, your creatures gain double the levels. From now on, whenever a creature in your hand gains levels, you discard a random card. |
 | Fafnir's Witch | Choose a card in your hand. It kills and discards your strongest creature to gain its levels. Your Empire is Cursed: Dragons are permanently Frozen in your hand. |
@@ -1091,12 +1157,16 @@ __Sinful Witches__ — Lvl. 7-9
 | Richard Witchson | Start a "War on Witches." All Witch cards are banned from the game! |
 | The Witch Who Stole Grinch | Choose to give Grinch to you or your opponent. Grinch is a level 6 creature with a base strength of 5, and no Power Type. While Grinch is in hand, any cards drawn enter his filthy sack. |
 | The Witch of Tantalus | _The Eternal Thirst:_ For the rest of the game, whenever your opponent draws a card, they take 1 damage. |
-| Witch of the Four Horsemen | 
-| Baden's Witch | The next time you are about to lose a duel, switch the card played with the most powerful creature in hand. |
+| Apocalyptic Witch | Shuffle the Four Horsemen into the deck. Once each one is played, end the game. |
+| Baden's Witch | The next time you are about to lose a duel, switch the card played with the most powerful creature in hand and fight again. |
 | Xartrath's Witch | 
 | W | No player can lose until Mayhem. |
 | Actaeon's Witch | Accidentally see a random witch in your opponent's hand. If you spot one, get a `White Stag {4}`. The next duel you lose causes the White Stag to damage your Empire and vanish. If you win your next 3 duels instead, the White Stag blesses your kingdom. <br>Blessing of the Stag: Every card you draw gains `+3 levels`. |
 | Black Fly Witch | _The Pest from Hell_: The next time your opponent loses 3 duels in a row, all creature's in their hand damage them and flee. |
+| S | If you're holding a `Fire` Dragon, deal its level as damage to the enemy Empire. |
+| S | If you're holding a `Holy` Dragon, restore HP to your Empire equal to its level. |
+| S | If you're holding an `Ancient` Dragon, add two more `Ancient` Dragons to your hand. |
+| S | If you're holding a `Nightmare` Dragon, it eats two cards in your opponent's hand and absorbs their levels. |
 
 <br>
 
@@ -1108,6 +1178,7 @@ _Timing_:
 
 - __On Escape__ — When a Witch survives its duel.
 - __On Death__ — When a Witch loses its duel.
+- __On Entry__ — When a card first enters your hand.
 - __While in hand__ — A continuous effect active as long as the card remains in hand.
 - __At the start of your turn__ — Resolves after drawing a card, before dueling.
 - __At the end of your turn__ — Resolves after the duel.
