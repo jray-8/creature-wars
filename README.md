@@ -685,8 +685,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Little Altar Witch | Convert a random creature in your opponent's hand to `Holy`. It loses `3 levels` and gains cooldown 2. |
 | Catholic Witch | Steal all Lvl.1-2 `Holy` creatures from your opponent's Empire. They achieve `+1 level` in your hand. |
 | Reverend Witch | _Sermon_: All `Holy` in your hand gain `+2 levels`; opponent's lose `1 level`. |
-| S | Freeze all level 1 creatures in both hands. |
-| S | Transform all your Witches into random creatures with the same level. |
+| S | Freeze all level 1 and 2 creatures in both hands. |
 | Ferocious Witch | Discard the top 3 cards of the deck. Any creatures go feral dealing their base strength to both Empires. |
 | Firebrand Witch | _Ignite_: `+3 power` to your next `Fire` creature; if it wins, chain Ignite to another `Fire` creature in hand. |
 | Hunt's Witch | Shuffle a random Witch in your opponent's hand into the deck. If they aren't holding one, they take 4 damage instead. |
@@ -818,6 +817,26 @@ __Sacred Witches__ — Lvl. 4-6
 | S | Swap this Witch with a random creature from the Graveyard. If it wins its duel, add it to your hand. |
 | S | Summon a creature from your opponent's hand to duel for you. If it wins the duel, return it to your opponent's hand. This Witch is discarded. |
 | S | Swap this Witch with a random card from the deck before the duel. |
+| S | If this Witch flees, get a copy of the enemy card. |
+| Sacher-Masoch's Witch | For the rest of the game, draw a card whenever your Empire takes damage. |
+| S | Discard all Enhanced creatures you hold and draw a card. They will attack the enemy Empire in Mayhem. |
+| S | The lowest base strength Tribe from each player's hand gains `+2 levels`. |
+| S | Choose to set the level of all cards in either Empire's hand to `level 4`. |
+| Mummified Witch | Get a random card from the Graveyard with cooldown 3. |
+| S | Choose to practice one of the seven deadly sins. |
+| The Witcherwocky | Cast the effect of 5 random Sacred Witches. |
+| S | Shuffle 5 Sinful Witches into the deck. If you have formed a Witch Rally this game, draw one. |
+| Sepulchre Witch | Add a `Holy` Skeleton to your hand. |
+| Catacombs Witch | Add 3 `Ancient` Skeletons to your hand. |
+| S | Add 2 `Holy` Pirates to your hand. |
+| Gaurdian Witch | The next time your Empire takes an even number of damage, prevent it and add a `Holy` Wolf to your hand. |
+| S | If your creature loses the next duel, it deals double damage to both Empires. |
+| S | Instead of gaining levels, creatures and Witches now gain base strength. |
+| John McCrae's Witch | _In Flanders Fields_: Add two __Lvl.3 Poppy Soliders {3}__ to your hand. When played, they buff your `Holy` and `Fire` creatures by `+1 level`, or `+2 levels` if they win their duel. |
+| Opium Witch | _Opium of the People_: `Holy` creatures are pacified and no longer deal damage to either Empire. In Mayhem, they deal double damage instead. |
+| Anti-Witch | Cancel the next Witch effect played by your opponent. |
+| La Lechuza Witch | Call a __Giant Owl__ to your hand. When it wins a duel, reveal the opponent's level 1-3 cards and steal one. |
+| Jolie Rougue Witch | _No Quarter_: Both players discard their highest level creature. The winner of the next duel earns theirs back. giving their hand `+1 level`. |
 
 
 
@@ -833,7 +852,6 @@ __Sacred Witches__ — Lvl. 4-6
 | Sepulchrul Witch |
 | Graveyard Witch |
 | The Witch of Wallstreet |
-| The Witcherwocky | Cast the effect of 5 random Sacred Witches. |
 | Half-Bred Witch |
 | Regressive Witch |
 | Master Crone |
@@ -887,6 +905,7 @@ __Sacred Witches__ — Lvl. 4-6
 | Witch of Yarrow |
 | Witch of Durango |
 | Di Mambro's Witch |
+| Witch of the Solar Temple |
 | Cockatrice Witch |
 | Reniassance Witch |
 | The Witch With No Name |
@@ -897,44 +916,65 @@ __Sacred Witches__ — Lvl. 4-6
 | Kali's Teeth Witch |
 | Whistle Witch |
 | I Ching Witch |
-| La Lechuza Witch |
-| Black Powder Witch |
-| The Jolly Witch | _No Quarter_: |
 | Dead Man's Witch |
+| Marquis de Sade's Witch |
+| Chaucer's Witch |
+| Victorian Witch |
+| Elizabethan Witch |
+| Witch Galasius |
+| Dire Witch |
+| Witcha Dona |
 
-| Samhain Witch |
+| Samhain Witch | Transform all your Witches into random creatures with the same level. |
+| Old Witch of the Sea | Add a __Selkie {3}__ to your hand. When it wins a duel, add a random Witch to your hand. |
+| Eoster's Witch | Unfreeze a card in your hand to transform it into the __Eostre Hare__. While held, there is a 50% chance it will lay an __Easter Egg__ at the start of each turn. Playing the Eostre Hare will hatch all of its eggs, and give them `+3 levels` if it wins its duel. |
+| Witch of Lupercalia | _Februa Cleansing_: Offer a Wolf to the cave's maw to scour the Empire of winter's rot, then lash the maidens with the fertility of the beast. <br>Predator's End: You duel with `+4 power` against Wolves. <br>Renewed Vitality: Get level 1 copies of any level 3 or 4 creatures in your opponent's hand. <br>"Through the strike of the goat-skin, the barren shall bloom!" |
+| St. Valentine's Witch | Get a Valentine from a random card in your opponent's hand. |
+| Crone of Copia | _Horn of Plenty_: Instead of drawing at the start of your turn, choose a Tribe or Power Type to get a random creature from. |
+| Cupid's Witch | _Love Lottery_: Choose a card to be pair-bonded with a random card from your opponent's hand. Both cards are revealed. When one wins a duel, the other is discarded. |
+| Witch of Cerealia | _Flaming Foxes_: Set both players' Wolves on `Fire`. After two turns, discard any still in hand to set the rest of your hand on `Fire` and destroy Witches. |
+| Vestal Priestess | _Tending The Flames_: At the end of each turn, steal 1 level from all your `Fire` creatures. Next turn you duel with the absorbed levels as additional power, or double the absorbed levels if you play a `Holy` creature. If any `Fire` creatures would go to level 0, instead discard that creature, take 6 damage, and end this effect. |
+| Valkyrie Witch | _Chooser of the Slain_: After the next duel, you may choose to flip the outcome. The loser of the duel damages the holding Empire and flees. The winner is returned to your hand with cooldown 5. |
+| Wepwawet's Witch | _Opener of Ways_: Discard your hand, then return all Wolves from the Graveyard to your hand. |
+| Skadi's Witch | _Winter Hunt_: Give your opponent's hand cooldown 2. Your Wolves and Giants gain `+2 levels`. |
+| Fenrir's Witch | _The Bound Beast_: Consume _ALL_ `Fire` in both hands and the deck. Your Frozen creatures attack the enemy Empire in Mayhem. Add a Frozen Wolf to your hand. |
+| Djinn Witch | Discard a `Fire` creature to wish for a new one of your choice. |
+| The Witch of Padstow | _Doom Bar_: If this Witch dies, curse the harbour. Pirates enter a player's hand with `-3 levels`. If the Pirate would go to level 0, discard it instead. |
 | Hafren's Witch | _River Curse_: Drown a random card in your opponent's hand (discard it). You draw a card. |
-| Nimue's Witch | _Lady of the Lake_: Add a Frozen stone sword to your hand. The curse is lifted once a creature whose level is 6 or higher wins a duel for your Empire. |
+| Nimue's Witch | _Lady of the Lake_: Add a Frozen Stone Sword to your hand. The curse is lifted once a creature with level 6 or higher wins a duel for your Empire. |
 | Caliburn | _The Sword in the Stone_: This sword breaks in battle. Play any Witch card to receive its upgrade. |
 | Excalibur | _The Sword from the Lake_: While in hand, your Empire takes half damage from all sources (rounded down). Playing the Excalibur will always result in a win. |
+| Gwendolen's Witch | Choose a creature in your hand. If your opponent is holding a creature of the same Tribe, discard it. |
+| The Witch of Zennor | The opponent plays a random creature from their hand next turn. If it loses its duel, add it to the bottom of the deck. |
+| Corineus' Witch | _Giant-Slayer_: Your Empire duels with `+5 power` against Giants. |
+| Witch of Portreath | Eat a random Pirate in your opponent's hand to give your Giants `+2 levels`. |
+| Cormoran's Witch | _Livestock Theft_: For each Giant you hold, steal a random card from the enemy Empire with less base strength than it. Discard those Giants afterwards. |
+| Spriggan Witch | Set the Base Strength of all cards in your hand to 5. Heal your Empire by 5 HP. |
+| Witch of Avalon | Your next creature to be defeated is returned to your hand with cooldown 5. When it awakens, give it `+5 levels` and heal your Empire for its base strength. |
 
-| Eoster's Witch | Unfreeze a card in your hand to transform it into the __Eostre Hare__. While held, there is a 50% chance it will lay an __Easter Egg__ at the start of each turn. Playing the Eostre Hare will hatch all of its eggs, and give them `+3 levels` if it wins its duel. |
-| Lupercalia Witch |
-| Crone of Copia | _Horn of Plenty_: Instead of drawing at the start of your turn, choose a Tribe or Power Type to get a random creature from. |
+| Sin Bad's Witch |
+| Septimontium Witch |
 | Aegis Witch |
-| Andvari's Witch |
-| Fafnir's Witch |
-| Valkyrie Witch |
-| Wepwawet's Witch |
-| Skadi's Witch |
-| Fenrir's Witch |
+| Surtr's Witch |
+| Jormungandr's Witch |
 | Kraken Crone |
 | Hyrrokkin's Witch |
 | Kali's Witch |
 | Trismegistus Witch |
 | Witch Luminarias |
-| Gwendolyn's Witch |
-| The Witch of Zennor |
-| Cornish Witch |
-| Cormoran's Witch |
-| Spriggan Witch |
-| Witch of Avalon |
 | Wiccan Le Fay |
-| The Fisher King's Witch |
+| Sir Lancelot's Witch |
+| Queen Guinevere's Witch |
+| The Fisher King's Witch | _Whom does the Grail Serve?_: 
 | Corineus' Witch |
-
-| The Witch of Padstow | _Doom Bar_: If this Witch dies, curse the harbour. Pirates enter a player's hand with `-3 levels`. If the Pirate would go to level 0, discard it instead. |
-| Gwendolen's Witch | Choose a creature in your hand. If your opponent is holding a creature of the same Tribe, discard it. |
+| Leprechaun Witch |
+| Witch of Balor |
+| Witch of the Criag Liath |
+| Cailleach |
+| Wulver Witch |
+| Beithir's Witch |
+| King George I Witch |
+| Black Beard's Witch |
 
 
 
@@ -945,7 +985,10 @@ __Sacred Witches__ — Lvl. 4-6
 | Fire Leaping Witch |
 | Blackthorn Witch |
 | Liminal Witch |
-| S | Shuffle 5 Sinful Witches into the deck. If you have formed a Witch Rally this game, draw one. |
+| Fawn Response Witch |
+| Archimedes' Witch |
+| Long Ben's Witch |
+| Black Bart's Witch |
 
 
 | Perpetual Time Witch |
@@ -956,13 +999,9 @@ __Sacred Witches__ — Lvl. 4-6
 | Taboo Witch |
 | Death Witch |
 | Prohabitionist Witch |
-
-| John McCrae's Witch | _In Flanders Fields_: Add three __Lvl.3 Poppy Soliders {3}__ to your hand. When played, they buff your `Holy` and `Fire` creatures by `+1 level`, or `+2 levels` if they win their duel. |
-| Flanders' Witch | Add three Lvl.1 `Holy` Skeletons to your hand. |
-| Opium Witch | _Opium of the People_: `Holy` creatures are pacified, and no longer deal damage to either Empire. In Mayhem, they deal double damage instead. |
-| Anti-Witch | Cancel the next Witch effect played by your opponent. |
 | Amory Lovins' Witch |
 | Holy Grail Witch |
+| Judas' Witch |
 
 | The Witch of Eden |
 | Free Speech Witch |
@@ -1339,6 +1378,7 @@ _Status Effects_:
 	- This card will not harm you during Mayhem.
 - __Cooldown $N$__
 	- This card cannot be played until $N$ full turns have passed.
+	- Cards on cooldown cannot participate in Rallies.
 - __Frozen__ 
 	- A card stays in hand but cannot be played. It may be used in Rallies.
 - __Discouraged__ 
