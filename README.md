@@ -830,7 +830,6 @@ __Sacred Witches__ — Lvl. 4-6
 | S | Shuffle 5 Sinful Witches into the deck. If you have formed a Witch Rally this game, draw one. |
 | Sepulchre Witch | Add a `Holy` Skeleton to your hand. |
 | Catacombs Witch | Add 3 `Ancient` Skeletons to your hand. |
-| Black Bart's Witch | "A merry life and a short one!" <br>_The Black Code_: Add 2 `Holy` Pirates to your hand. |
 | Gaurdian Witch | The next time your Empire takes an even number of damage, prevent it and add a `Holy` Wolf to your hand. |
 | S | If your creature loses the next duel, it deals double damage to both Empires. |
 | S | Instead of gaining levels, creatures and Witches now gain base strength. |
@@ -873,12 +872,33 @@ __Sacred Witches__ — Lvl. 4-6
 | Witch of Portreath | Eat a random Pirate in your opponent's hand to give your Giants `+2 levels`. |
 | Cormoran's Witch | _Livestock Theft_: For each Giant you hold, steal a random card from the enemy Empire with less base strength than it. Discard those Giants afterwards. |
 | Spriggan Witch | Set the Base Strength of all cards in your hand to 5. Heal your Empire by 5 HP. |
-| Blackbeard's Witch | _Queen Anne's Revenge_: Choose to get 2 random Skeletons or Pirates. They become `Nightmares`. <br>"Damn my soul if I give ye quarters, or take any from ye!" |
 | S | Choose any Tribe. A random card in your opponent's hand is replaced with a creature from that Tribe. |
 | Abortion Witch | If your opponent is carrying a Lvl.1 creature, they discard it. |
 | S | _Protecting The Bloodline_: If you have 2 creatures that share the same Tribe and Power Type, get a Lvl.1 child from them with cooldown 3. |
 | S | Draw a card. While it's a Wolf or Serpent, draw another. |
 | S | Choose a Power Type. _ALL_ Giants become that type. |
+| Blackbeard's Witch | _Queen Anne's Revenge_: Choose to get 2 random Skeletons or Pirates. They become `Nightmares`. <br>"Damn my soul if I give ye quarters, or take any from ye!" |
+| Black Bart's Witch | _The Black Code_: Add 2 `Holy` Pirates to your hand. <br>"A merry life and a short one!"|
+| Jean Lafitte's Witch | _The Terror of the Gulf_: Look at your opponent's hand and choose one card to take. In exchange, your opponent draws a slave (Frozen card). <br>"What I take, I sell. What I sell, I own." |
+| Captain Kidd's Witch | _The Unlucky Pirate_: Paralyze a Pirate in the deck. When drawn, the finder's hand is Discouraged and loses `2 levels`. <br>"Let every sailor who passes this point know: the law has long reach and a heavy chain." |
+| Charles Vane's Witch | _Fireship Escape_: Turn your Pirates into a Skeleton crew and set them all on `Fire`. If you win your next duel, the enemy Empire takes an additional 3 damage for each `Fire` in your hand. <br>"I am not for a Pardon, for I have not yet done enough Mischief." |
+| Calico Jack's Witch | _The Pirate Dandy_: Give your Pirates `+1 level` for each Power Type you control. <br>"A fine death is better than a dull one!" |
+| Anne Bonny's Witch | _The Red-Handed Mistress_: Transform a card in your hand into a Pirate and remove all status conditions from it. If it was Frozen or Discouraged, it gains `+4 levels`. <br>"I was not born to sit in a parlour and sew!" |
+| Benjamin Hornigold's Witch | _Pirate Hunter_: Target any Pirate Witch. In 1 turn, add it to your hand. <br>"I know where they hide." |
+| Sir Henry Morgan's Witch | _Letters of Marque_: Your Empire no longer takes damage from Pirates. Instead, you gain +2 HP when this happens. <br>"I serve the Crown, and I have the papers to prove it!" |
+| King George I's Witch | _Act of Grace 1717_: _ALL_ Pirates are destroyed. <br>"Mercy is offered once." |
+| Woodes Rogers' Witch | _The King's Pardon_: Turn each Pirate in your hand into an __Honest Mariner {4}__ with no Tribe or Power Type. At the end of each turn, a random card in hand is given `+1 level` from the Honest Mariner's services. <br>"I have come not to destroy you, but to offer you new life." |
+| Stede Bonnet's Witch | _The Gentleman Pirate_: Add a Lvl.1 Pirate to your hand. It cannot gain levels. <br>"I should have stayed in the library." |
+| Sorciere de l'Olonnais | _The Crimson Tide_: For the rest of the game, the loser of a duel takes damage from the winner's base strength instead. All Pirates deal double damage. <br>"Scream louder… The Sea listens." |
+| Long Ben's Witch | _King of Pirates_: If you've defeated 3 Pirates in duels this game, fill your hand with random treasure (including one Sinful and Sacred Witch). <br>"I am a Man of Fortune, and I have found what I sought. Let the world seek me now." |
+| Black Sam Bellamy's Witch | _Robin Hood of the Sea_: If your opponent has more: <br>Cards → draw 2 <br>Total levels → steal 2 from their hand to add to yours <br>HP → steal 4 from their Empire <br>"They rob the poor under the cover of the law—so we plunder the rich under the protection of our own courage." |
+| Witch of Wellfleet | Choose to destroy a Pirate in your hand, or your opponent's (if present), to add the __Whydah Gally__ to the bottom of the deck. On draw, the Whydah Gally gives its finder's Empire +30 HP. <br>"The sea keeps what it takes." |
+| Ching Shih's Witch | _Code of the Red Flag_: Your Pirates duel with `+4 power` this game. <br>"Disobedience is death." |
+| Zheng Yi's Witch | _Red Flag Fleet_: Shuffle 12 Pirates into the deck. Whenever a player draws a Pirate, it first attacks their Empire, unless they hold a Pirate Rally. <br>"You sail—or you bleed." |
+| Black Caesar's Witch | _The Trojan Ship_: Steal a Pirate from your opponent's hand. If they have none, steal their highest-level creature and turn it into a Pirate. Your stolen Pirate gains `+3 levels` but deals triple damage on loss. <br>"You remember my face from the hold?" |
+| William Dampier's Witch | _Master of Charts_: Reveal both hands. For each Pirate revealed, your Empire gains +2 HP. <br>"The world is a book, and those who do not travel read only a page." |
+| Ned Low's Witch | _The Bloody Low_: Whenever you draw a card, you may pay 4 HP to turn it into a Pirate that gains `+2 levels`. If you do not, it gains cooldown 1. <br>"All men are equal—until they refuse." |
+| Howell Davis' Witch | _Master of Deception_: Choose a new Tribe for a Pirate in your hand and reroll its level. <br>"Lace is cheaper than lead, and it opens far more doors." |
 
 
 
@@ -989,29 +1009,6 @@ __Sacred Witches__ — Lvl. 4-6
 | Liminal Witch |
 | Fawn Response Witch |
 | Archimedes' Witch |
-
-| Jean Lafitte's Witch | _The Terror of the Gulf_: Look at your opponent's hand and choose one card to take. In exchange, your opponent draws a slave (Frozen card). <br>"What I take, I sell. What I sell, I own." |
-| Edward Low's Witch |
-| Captain Kidd's Witch | _The Unlucky Pirate_: |
-| Charles Vane's Witch | _Fireship Escape_: Turn your Pirates into a Skeleton crew and set them all on `Fire`. If you win your next duel, the enemy Empire takes an additional 3 damage for each `Fire` in your hand. |
-| Calico Jack's Witch | _The Pirate Dandy_: Give your Pirates `+1 level` for each Power Type you control. <br>"A fine death is better than a dull one!" |
-| Benjamin Hornigold's Witch | _Pirate Hunter_:  <br>"I know where they hide." |
-| Henry Morgan's Witch |
-| King George I's Witch | _Act of Grace 1717_: |
-| Woodes Rogers' Witch | _The King's Pardon_: Turn a Pirate in your hand into an __Honest Mariner {4}__ with no Tribe or Power Type. At the end of each turn, a random card in hand is given `+1 level` by the Honest Mariner's services. |
-| Stede Bonnet's Witch |
-| Sorciere de l'Olonnais | _The Crimson Tide_: For the rest of the game, the loser of a duel takes damage from the winner's base strength instead. <br>"Scream louder. The sea listens." |
-| Henry Every's Witch | _King of Pirates_: 
-| Long Ben's Witch | _Man of Fortune_: If you've defeated 3 Pirates in duels this game, fill your hand with random treasure (including one Sinful and Sacred Witch). |
-| Black Sam Bellamy's Witch | _Robin Hood of the Sea_: If your opponent has more: <br>Cards → draw 2 <br>Total levels → steal 2 from their hand to add to yours <br>HP → steal 4 from their Empire |
-| Samuel Bellamy's Witch | _Prince of Pirates_: "Freedom is worth the cost." <br>Choose up to two Pirates in your hand. They gain `+3 levels`. For each chosen Pirate, your opponent draws a card. |
-| Witch of Wellfleet | Choose to destroy a Pirate in your hand, or your opponent's (if present), to add the __Whydah Gally__ to the bottom of the deck. On draw, the Whydah Gally gives its finder's Empire +30 HP. <br>"The sea keeps what it takes." |
-| Ching Shih's Witch | _Code of the Red Flag_: Your Pirates duel with `+4 power` this game. <br>"Disobedience is death." |
-| Zheng Yi's Witch | _Red Flag Fleet_: Shuffle 12 Pirates into the deck. Whenever a player draws a Pirate, it first attacks their Empire, unless they hold a Pirate Rally. <br>"You sail—or you bleed." |
-
-| S | Steal a Pirate from your opponent's hand. If they have none, steal their highest-level creature and turn it into a Pirate. Your stolen Pirate gains `+3 levels` but deals triple damage on loss. |
-| S | Reveal all Pirates in both hands. For each Pirate revealed, your Empire gains +2 HP. |
-| Ned Low's Witch | _The Black Code_: Whenever you draw a card, you may pay 4 HP to turn it into a Pirate that gains `+2 levels`. If you do not, it gains cooldown 1. <br>"All men are equal—until they refuse." |
 
 
 | Hitchhiker's Witch |
